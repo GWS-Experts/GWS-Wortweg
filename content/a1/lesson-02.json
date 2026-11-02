@@ -1,0 +1,128 @@
+{
+  "id": "a1-02",
+  "level": "A1",
+  "order": 2,
+  "title_de": "In der Bäckerei",
+  "title_en": "At the bakery",
+  "goal_en": "Order food politely and understand prices with numbers 1 to 10.",
+  "scene": {
+    "setting_en": "The next morning Emma goes to the bakery in Marzling. Lukas is behind the counter.",
+    "lines": [
+      { "speaker": "lukas", "de": "Guten Morgen, Emma! Was möchtest du?", "en": "Good morning, Emma! What would you like?" },
+      { "speaker": "emma", "de": "Guten Morgen! Ich möchte zwei Brezen, bitte.", "en": "Good morning! I'd like two pretzels, please." },
+      { "speaker": "lukas", "de": "Gerne. Noch etwas?", "en": "Sure. Anything else?" },
+      { "speaker": "emma", "de": "Ja, einen Kaffee, bitte.", "en": "Yes, a coffee, please." },
+      { "speaker": "lukas", "de": "Das macht vier Euro.", "en": "That's four euros." },
+      { "speaker": "emma", "de": "Hier, bitte.", "en": "Here you go." },
+      { "speaker": "lukas", "de": "Danke! Schönen Tag noch!", "en": "Thanks! Have a nice day!" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "guten_morgen", "de": "Guten Morgen", "type": "phrase", "en": "good morning", "example_de": "Guten Morgen, Lukas!", "example_en": "Good morning, Lukas!" },
+    { "id": "moechten", "de": "möchten", "type": "verb", "en": "would like", "example_de": "Ich möchte einen Kaffee.", "example_en": "I'd like a coffee." },
+    { "id": "breze", "de": "Breze", "article": "die", "plural": "die Brezen", "type": "noun", "en": "pretzel", "example_de": "Die Breze ist frisch.", "example_en": "The pretzel is fresh.", "note_en": "In Bavaria it's 'die Breze', in other regions 'die Brezel'." },
+    { "id": "kaffee", "de": "Kaffee", "article": "der", "plural": "die Kaffees", "type": "noun", "en": "coffee", "example_de": "Der Kaffee ist heiß.", "example_en": "The coffee is hot." },
+    { "id": "semmel", "de": "Semmel", "article": "die", "plural": "die Semmeln", "type": "noun", "en": "bread roll", "example_de": "Ich möchte drei Semmeln.", "example_en": "I'd like three rolls.", "note_en": "In Bavaria a roll is 'die Semmel'; elsewhere often 'das Brötchen'." },
+    { "id": "bitte", "de": "bitte", "type": "adverb", "en": "please / here you go", "example_de": "Einen Kaffee, bitte.", "example_en": "A coffee, please." },
+    { "id": "danke", "de": "danke", "type": "phrase", "en": "thank you", "example_de": "Danke, Lukas!", "example_en": "Thanks, Lukas!" },
+    { "id": "euro", "de": "Euro", "article": "der", "plural": "die Euro", "type": "noun", "en": "euro", "example_de": "Das macht vier Euro.", "example_en": "That's four euros." },
+    { "id": "eins_bis_fuenf", "de": "eins, zwei, drei, vier, fünf", "type": "number", "en": "one, two, three, four, five", "example_de": "Ich möchte fünf Semmeln.", "example_en": "I'd like five rolls." },
+    { "id": "sechs_bis_zehn", "de": "sechs, sieben, acht, neun, zehn", "type": "number", "en": "six, seven, eight, nine, ten", "example_de": "Das macht zehn Euro.", "example_en": "That's ten euros." },
+    { "id": "noch_etwas", "de": "Noch etwas?", "type": "phrase", "en": "Anything else?", "example_de": "Noch etwas? – Nein, danke.", "example_en": "Anything else? – No, thanks." }
+  ],
+  "grammar": {
+    "title_en": "Ordering politely with 'möchten'",
+    "explanation_en": "'Ich möchte ...' means 'I would like ...' and is the polite way to order. The thing you order comes at the end of the sentence. Masculine words like 'der Kaffee' change to 'einen' when you order them: 'einen Kaffee'. Feminine words stay 'eine': 'eine Breze'.",
+    "table": {
+      "headers": ["", "möchten"],
+      "rows": [
+        ["ich", "möchte"],
+        ["du (informal you)", "möchtest"],
+        ["Sie (polite you)", "möchten"]
+      ]
+    },
+    "examples": [
+      { "de": "Ich möchte eine Breze.", "en": "I'd like a pretzel." },
+      { "de": "Ich möchte einen Kaffee.", "en": "I'd like a coffee." },
+      { "de": "Was möchtest du?", "en": "What would you like? (informal)" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1-02-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which number is 'sieben'?",
+      "options": ["6", "7", "9"],
+      "answer": 1
+    },
+    {
+      "id": "a1-02-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich ___ zwei Semmeln, bitte.",
+      "options": ["möchte", "möchtest", "möchten"],
+      "answer": "möchte",
+      "translation_en": "I'd like two rolls, please."
+    },
+    {
+      "id": "a1-02-e3",
+      "type": "gap_fill",
+      "prompt_en": "Choose the right article.",
+      "sentence_de": "Ich möchte ___ Kaffee.",
+      "options": ["einen", "eine", "ein"],
+      "answer": "einen",
+      "translation_en": "I'd like a coffee."
+    },
+    {
+      "id": "a1-02-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["macht", "Das", "Euro", "fünf", "."],
+      "answer": "Das macht fünf Euro.",
+      "translation_en": "That's five euros."
+    },
+    {
+      "id": "a1-02-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type the price as a number.",
+      "text_de": "Das macht acht Euro.",
+      "accept": ["8", "acht"],
+      "translation_en": "That's eight euros."
+    },
+    {
+      "id": "a1-02-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        { "de": "die Breze", "en": "pretzel" },
+        { "de": "die Semmel", "en": "bread roll" },
+        { "de": "der Kaffee", "en": "coffee" },
+        { "de": "danke", "en": "thank you" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "It's Saturday. You are at the bakery again. Order breakfast.",
+    "turns": [
+      { "speaker": "lukas", "de": "Servus, Emma! Was möchtest du heute?", "en": "Hi, Emma! What would you like today?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ich möchte drei Semmeln, bitte.", "correct": true, "feedback_en": "Well done! Polite and clear." },
+          { "de": "Ich möchtest drei Semmeln.", "correct": false, "feedback_en": "With 'ich' it's 'möchte' without -st." },
+          { "de": "Danke, drei Semmeln.", "correct": false, "feedback_en": "Use 'bitte' when you ask for something and 'danke' when you get it." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Gerne. Noch etwas?", "en": "Sure. Anything else?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Nein, danke.", "correct": true, "feedback_en": "Perfect! Short and polite." },
+          { "de": "Ja, einen Breze.", "correct": false, "feedback_en": "'Breze' is feminine (die Breze), so it's 'eine Breze'." },
+          { "de": "Grüß Gott.", "correct": false, "feedback_en": "That's a greeting. Lukas asked if you want anything else." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Das macht zwei Euro.", "en": "That's two euros." }
+    ]
+  }
+}

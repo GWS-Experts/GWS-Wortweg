@@ -1,0 +1,126 @@
+{
+  "id": "a1-03",
+  "level": "A1",
+  "order": 3,
+  "title_de": "Meine neue Wohnung",
+  "title_en": "My new flat",
+  "goal_en": "Name rooms and things at home and use der, die, das.",
+  "scene": {
+    "setting_en": "Frau Huber shows Emma around the flat.",
+    "lines": [
+      { "speaker": "frau_huber", "de": "So, das ist die Küche.", "en": "So, this is the kitchen." },
+      { "speaker": "emma", "de": "Oh, die Küche ist schön! Und wo ist das Bad?", "en": "Oh, the kitchen is lovely! And where is the bathroom?" },
+      { "speaker": "frau_huber", "de": "Das Bad ist hier links.", "en": "The bathroom is here on the left." },
+      { "speaker": "emma", "de": "Und das Schlafzimmer?", "en": "And the bedroom?" },
+      { "speaker": "frau_huber", "de": "Das Schlafzimmer ist rechts. Der Balkon ist auch da.", "en": "The bedroom is on the right. The balcony is there too." },
+      { "speaker": "emma", "de": "Ein Balkon! Toll!", "en": "A balcony! Great!" },
+      { "speaker": "frau_huber", "de": "Ja, und der Tisch und die Stühle sind neu.", "en": "Yes, and the table and the chairs are new." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "wohnung", "de": "Wohnung", "article": "die", "plural": "die Wohnungen", "type": "noun", "en": "flat / apartment", "example_de": "Die Wohnung ist in Marzling.", "example_en": "The flat is in Marzling." },
+    { "id": "kueche", "de": "Küche", "article": "die", "plural": "die Küchen", "type": "noun", "en": "kitchen", "example_de": "Die Küche ist klein.", "example_en": "The kitchen is small." },
+    { "id": "bad", "de": "Bad", "article": "das", "plural": "die Bäder", "type": "noun", "en": "bathroom", "example_de": "Das Bad ist links.", "example_en": "The bathroom is on the left." },
+    { "id": "schlafzimmer", "de": "Schlafzimmer", "article": "das", "plural": "die Schlafzimmer", "type": "noun", "en": "bedroom", "example_de": "Das Schlafzimmer ist groß.", "example_en": "The bedroom is big." },
+    { "id": "balkon", "de": "Balkon", "article": "der", "plural": "die Balkone", "type": "noun", "en": "balcony", "example_de": "Der Balkon ist schön.", "example_en": "The balcony is lovely." },
+    { "id": "tisch", "de": "Tisch", "article": "der", "plural": "die Tische", "type": "noun", "en": "table", "example_de": "Der Tisch ist neu.", "example_en": "The table is new." },
+    { "id": "stuhl", "de": "Stuhl", "article": "der", "plural": "die Stühle", "type": "noun", "en": "chair", "example_de": "Die Stühle sind neu.", "example_en": "The chairs are new." },
+    { "id": "bett", "de": "Bett", "article": "das", "plural": "die Betten", "type": "noun", "en": "bed", "example_de": "Das Bett ist bequem.", "example_en": "The bed is comfortable." },
+    { "id": "wo", "de": "wo", "type": "question_word", "en": "where", "example_de": "Wo ist die Küche?", "example_en": "Where is the kitchen?" },
+    { "id": "links_rechts", "de": "links / rechts", "type": "adverb", "en": "on the left / on the right", "example_de": "Das Bad ist links, die Küche ist rechts.", "example_en": "The bathroom is on the left, the kitchen on the right." },
+    { "id": "gross_klein", "de": "groß / klein", "type": "adjective", "en": "big / small", "example_de": "Die Wohnung ist klein, aber schön.", "example_en": "The flat is small but lovely." },
+    { "id": "schoen", "de": "schön", "type": "adjective", "en": "beautiful / lovely / nice", "example_de": "Marzling ist schön.", "example_en": "Marzling is lovely." }
+  ],
+  "grammar": {
+    "title_en": "der, die, das: the three genders",
+    "explanation_en": "Every German noun has a gender: masculine (der), feminine (die) or neuter (das). The gender often can't be guessed, so always learn a noun together with its article. In the plural, the article is always 'die'. Tip: words ending in -ung are always feminine (die Wohnung).",
+    "table": {
+      "headers": ["masculine", "feminine", "neuter", "plural"],
+      "rows": [
+        ["der Tisch", "die Küche", "das Bad", "die Stühle"],
+        ["ein Tisch", "eine Küche", "ein Bad", "Stühle"]
+      ]
+    },
+    "examples": [
+      { "de": "Der Balkon ist groß.", "en": "The balcony is big." },
+      { "de": "Die Wohnung ist schön.", "en": "The flat is lovely." },
+      { "de": "Das Bett ist neu.", "en": "The bed is new." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1-03-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Choose the right article for 'Küche'.",
+      "options": ["der", "die", "das"],
+      "answer": 1
+    },
+    {
+      "id": "a1-03-e2",
+      "type": "multiple_choice",
+      "prompt_en": "Choose the right article for 'Bad'.",
+      "options": ["der", "die", "das"],
+      "answer": 2
+    },
+    {
+      "id": "a1-03-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "___ Tisch ist neu.",
+      "options": ["Der", "Die", "Das"],
+      "answer": "Der",
+      "translation_en": "The table is new."
+    },
+    {
+      "id": "a1-03-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["ist", "Wo", "Schlafzimmer", "das", "?"],
+      "answer": "Wo ist das Schlafzimmer?",
+      "translation_en": "Where is the bedroom?"
+    },
+    {
+      "id": "a1-03-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Die Wohnung ist klein.",
+      "accept": ["Die Wohnung ist klein."],
+      "translation_en": "The flat is small."
+    },
+    {
+      "id": "a1-03-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the opposites.",
+      "pairs": [
+        { "de": "groß", "en": "big" },
+        { "de": "klein", "en": "small" },
+        { "de": "links", "en": "on the left" },
+        { "de": "rechts", "en": "on the right" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Lukas from the bakery asks about your new flat.",
+    "turns": [
+      { "speaker": "lukas", "de": "Und, wie ist die Wohnung?", "en": "So, how is the flat?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Die Wohnung ist schön.", "correct": true, "feedback_en": "Great! 'die Wohnung' is feminine." },
+          { "de": "Der Wohnung ist schön.", "correct": false, "feedback_en": "Words ending in -ung are always feminine: die Wohnung." },
+          { "de": "Wo ist die Wohnung?", "correct": false, "feedback_en": "That's a question. Lukas wants to know how the flat is." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Hast du einen Balkon?", "en": "Do you have a balcony?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja, der Balkon ist groß.", "correct": true, "feedback_en": "Perfect! 'der Balkon' is masculine." },
+          { "de": "Ja, das Balkon ist groß.", "correct": false, "feedback_en": "Balkon is masculine: der Balkon." },
+          { "de": "Ja, links.", "correct": false, "feedback_en": "Understandable, but try a full sentence about the balcony." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Super! Dann komme ich mal vorbei.", "en": "Great! Then I'll drop by sometime." }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "GWS-Wortweg",
+  "short_name": "Wortweg",
+  "description": "Learn German step by step with a story set in Marzling, Bavaria.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ee",
+  "theme_color": "#1c64b0",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

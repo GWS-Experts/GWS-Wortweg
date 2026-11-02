@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { addXp, completeLesson, XP_LESSON_BONUS, XP_PER_CORRECT } from "@/lib/progress";
 import type { Lesson, LearnerOption, Line, Vocab } from "@/lib/types";
 import { exerciseSolution, exerciseTranslation, ExerciseView } from "./Exercises";
+import { GOOD_SCORE, pickPracticeSentences, PronunciationPractice } from "./PronunciationPractice";
 import { useProgress } from "./ProgressProvider";
 import { SpeakButton } from "./SpeakButton";
 
@@ -13,6 +14,7 @@ type Phase =
   | { kind: "word"; i: number }
   | { kind: "grammar" }
   | { kind: "exercise"; i: number }
+  | { kind: "speak" }
   | { kind: "dialogue" }
   | { kind: "done" };
 
@@ -95,6 +97,8 @@ export function LessonPlayer({
   const [correctCount, setCorrectCount] = useState(0);
   const [result, setResult] = useState<{ score: number; xp: number } | null>(null);
   const saved = useRef(false);
+  const practice = useMemo(() => pickPracticeSentences(lesson.scene.lines), [lesson]);
+  const [spokenWell, setSpokenWell] = useState(0);
 
   // Dialogue state
   const [turn, setTurn] = useState(0);
@@ -104,7 +108,7 @@ export function LessonPlayer({
   const nWords = lesson.vocabulary.length;
   const nEx = lesson.exercises.length;
   const learnerTurns = lesson.dialogue.turns.filter((t) => "learner" in t).length;
-  const totalSteps = 1 + nWords + 1 + nEx + 1;
+  const totalSteps = 1 + nWords + 1 + nEx + 1 + 1;
   const step =
     phase.kind === "scene"
       ? 0
@@ -114,9 +118,11 @@ export function LessonPlayer({
           ? 1 + nWords
           : phase.kind === "exercise"
             ? 2 + nWords + phase.i
-            : phase.kind === "dialogue"
+            : phase.kind === "speak"
               ? 2 + nWords + nEx
-              : totalSteps;
+              : phase.kind === "dialogue"
+                ? 3 + nWords + nEx
+                : totalSteps;
 
   const onReady = useCallback((r: boolean | null) => setReady(r), []);
 
@@ -136,7 +142,7 @@ export function LessonPlayer({
     if (phase.kind !== "exercise") return;
     setReady(null);
     setChecked(false);
-    setPhase(phase.i + 1 < nEx ? { kind: "exercise", i: phase.i + 1 } : { kind: "dialogue" });
+    setPhase(phase.i + 1 < nEx ? { kind: "exercise", i: phase.i + 1 } : { kind: "speak" });
   };
 
   const finish = useCallback(
@@ -146,7 +152,7 @@ export function LessonPlayer({
       const total = nEx + learnerTurns;
       const correct = correctCount + dialogueCorrect;
       const score = Math.round((correct / total) * 100);
-      const xp = correct * XP_PER_CORRECT + XP_LESSON_BONUS;
+      const xp = (correct + spokenWell) * XP_PER_CORRECT + XP_LESSON_BONUS;
       const words = lesson.vocabulary.map(({ id, de, article, en, example_de, example_en }) => ({
         id: `${lesson.id}:${id}`,
         de,
@@ -160,7 +166,7 @@ export function LessonPlayer({
       setResult({ score, xp });
       setPhase({ kind: "done" });
     },
-    [nEx, learnerTurns, correctCount, lesson, update],
+    [nEx, learnerTurns, correctCount, spokenWell, lesson, update],
   );
 
   // Dialogue: count learner turns answered right at the first try.
@@ -314,6 +320,19 @@ export function LessonPlayer({
               </Primary>
             </div>
           )}
+        </section>
+      )}
+
+      {phase.kind === "speak" && (
+        <section className="space-y-4">
+          <h2 className="text-xl font-bold">Speaking practice</h2>
+          <PronunciationPractice
+            sentences={practice}
+            onDone={(scores) => {
+              setSpokenWell(scores.filter((s) => s !== null && s >= GOOD_SCORE).length);
+              setPhase({ kind: "dialogue" });
+            }}
+          />
         </section>
       )}
 

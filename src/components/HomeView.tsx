@@ -97,6 +97,23 @@ export function HomeView({ lessons, levels, story }: { lessons: LessonSummary[];
         </div>
       </section>
 
+      <section className="grid gap-3 sm:grid-cols-2">
+        <Link href="/speak" className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-4 transition hover:border-brand">
+          <span className="text-3xl" aria-hidden>🎙️</span>
+          <span>
+            <span className="block font-semibold">Speaking practice</span>
+            <span className="block text-sm text-muted">Read sentences aloud and check your pronunciation.</span>
+          </span>
+        </Link>
+        <Link href="/tutor" className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-4 transition hover:border-brand">
+          <span className="text-3xl" aria-hidden>💬</span>
+          <span>
+            <span className="block font-semibold">Talk with Lena</span>
+            <span className="block text-sm text-muted">Free conversation with your AI tutor.</span>
+          </span>
+        </Link>
+      </section>
+
       <section>
         <div className="mb-3 grid grid-cols-4 gap-1.5 rounded-2xl bg-surface p-1.5" role="tablist" aria-label="Level">
           {levels.map((lv) => {

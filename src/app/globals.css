@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f4ee;
+  --surface: #ffffff;
+  --ink: #1c2430;
+  --muted: #5d6877;
+  --line: #e2ddd2;
+  --brand: #1c64b0;
+  --brand-ink: #ffffff;
+  --brand-soft: #e3eefa;
+  --good: #1f8a4c;
+  --good-soft: #e1f4e8;
+  --bad: #c0392b;
+  --bad-soft: #fbe6e3;
+  --warm: #c9762c;
+  --warm-soft: #f8ebdc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12161c;
+    --surface: #1b2129;
+    --ink: #e8ecf1;
+    --muted: #9aa5b3;
+    --line: #2c3540;
+    --brand: #5aa2ec;
+    --brand-ink: #0d1520;
+    --brand-soft: #1b2e45;
+    --good: #4cc27d;
+    --good-soft: #173525;
+    --bad: #f07b6e;
+    --bad-soft: #3d1f1c;
+    --warm: #e6a160;
+    --warm-soft: #3a2a1b;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-soft: var(--brand-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warm: var(--warm);
+  --color-warm-soft: var(--warm-soft);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}

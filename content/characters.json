@@ -40,6 +40,36 @@
       "name": "Dr. Anna Schmid",
       "role_en": "Emma's new boss at the hospital in Freising.",
       "speaks": "Polite form (Sie), later du"
+    },
+    {
+      "id": "dr_weber",
+      "name": "Dr. Weber",
+      "role_en": "Family doctor (Hausarzt) in Marzling.",
+      "speaks": "Polite form (Sie)"
+    },
+    {
+      "id": "frau_yilmaz",
+      "name": "Frau Yılmaz",
+      "role_en": "Clerk at the driving licence office of the district office (Landratsamt) in Freising.",
+      "speaks": "Polite form (Sie)"
+    },
+    {
+      "id": "tobias",
+      "name": "Tobias",
+      "role_en": "Emma's colleague at the hospital and friend. Lukas's brother. Plays football at the local club.",
+      "speaks": "Informal (du)"
+    },
+    {
+      "id": "herr_brandl",
+      "name": "Herr Brandl",
+      "role_en": "Chairman of the local sports club and member of the municipal council.",
+      "speaks": "Polite form (Sie), later du"
+    },
+    {
+      "id": "frau_koch",
+      "name": "Frau Koch",
+      "role_en": "Head of nursing at the hospital in Freising, leads Emma's job interview.",
+      "speaks": "Polite form (Sie)"
     }
   ]
 }

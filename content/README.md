@@ -4,7 +4,7 @@ Die Lektionen liegen als JSON-Dateien in diesem Ordner. Die App lädt sie direkt
 
 - `index.json` legt fest, welche Lektionen es pro Level gibt und in welcher Reihenfolge.
 - `characters.json` beschreibt die Geschichte in Marzling und die Figuren.
-- `a1/lesson-XX.json` enthält je eine Lektion.
+- `a1/`, `a2/`, `b1/`, `b2/` enthalten je eine Datei pro Lektion (`lesson-XX.json`). Das Feld `level` muss zum Ordner passen.
 
 Nach jeder Änderung prüfen: `node scripts/validate-content.mjs`
 
@@ -30,7 +30,9 @@ Nach jeder Änderung prüfen: `node scripts/validate-content.mjs`
 | `listen_type` | `text_de` (wird vorgelesen), `accept` (erlaubte Eingaben), `translation_en` |
 | `match_pairs` | `pairs` mit `de` und `en` |
 
-## Lektionen A1
+## Lektionen
+
+### A1
 
 | Nr. | Titel | Thema | Grammatik |
 | --- | --- | --- | --- |
@@ -40,3 +42,30 @@ Nach jeder Änderung prüfen: `node scripts/validate-content.mjs`
 | 4 | Am Bahnhof Marzling | S-Bahn, Uhrzeit | W-Fragen |
 | 5 | Im Supermarkt | Lebensmittel, Preise | Pluralformen |
 | 6 | Mein erster Arbeitstag | Beruf, Wohnort | Regelmäßige Verben im Präsens |
+
+### A2
+
+| Nr. | Titel | Thema | Grammatik |
+| --- | --- | --- | --- |
+| 1 | Beim Arzt | Krankheit, Apotheke | Modalverben |
+| 2 | Mein Wochenende an der Isar | Freizeit, Ausflug nach Freising | Perfekt |
+| 3 | Im Landratsamt | Führerschein umschreiben, Behörde | Trennbare Verben |
+| 4 | Auf dem Volksfest | Vorlieben, Geschenke | Dativ |
+
+### B1
+
+| Nr. | Titel | Thema | Grammatik |
+| --- | --- | --- | --- |
+| 1 | Die Heizung ist kaputt | Probleme in der Wohnung | Nebensätze mit weil, dass, wenn, ob |
+| 2 | Ein Jahr in Marzling | Rückblick, Blogeintrag | Präteritum |
+| 3 | Im Verein | Hobbys, Sportverein | Reflexive Verben, Verben mit Präposition |
+| 4 | Ich hätte da einen Vorschlag | Bürgerversammlung, Meinung sagen | Konjunktiv II |
+
+### B2
+
+| Nr. | Titel | Thema | Grammatik |
+| --- | --- | --- | --- |
+| 1 | Eine Beschwerde schreiben | Formelle E-Mail, Reklamation | Passiv |
+| 2 | Stadt oder Land? | Argumentieren | obwohl, trotzdem, während, je … desto |
+| 3 | In der Zeitung | Zeitungsartikel, Interview | Relativsätze |
+| 4 | Das Vorstellungsgespräch | Bewerbung, Beruf | Indirekte Rede (Konjunktiv I) |

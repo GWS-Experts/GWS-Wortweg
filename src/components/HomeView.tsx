@@ -1,17 +1,44 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { DAILY_GOALS, dueWords, setDailyGoal, xpToday } from "@/lib/progress";
-import type { LessonSummary, Story } from "@/lib/types";
+import type { LessonSummary, Level, Story } from "@/lib/types";
 import { useProgress } from "./ProgressProvider";
 
-export function HomeView({ lessons, story }: { lessons: LessonSummary[]; story: Story }) {
+const LEVEL_KEY = "gws-wortweg-level";
+
+export function HomeView({ lessons, levels, story }: { lessons: LessonSummary[]; levels: Level[]; story: Story }) {
   const { progress, loaded, update } = useProgress();
+  const [level, setLevel] = useState(levels[0].id);
   const xp = xpToday(progress);
   const goalPct = Math.min(100, Math.round((xp / progress.dailyGoal) * 100));
   const due = loaded ? dueWords(progress).length : 0;
   const learned = Object.keys(progress.words).length;
-  const nextLesson = lessons.find((l) => !progress.lessons[l.id]);
+  const nextOverall = lessons.find((l) => !progress.lessons[l.id]);
+  const levelLessons = lessons.filter((l) => l.level === level);
+  const nextLesson = levelLessons.find((l) => !progress.lessons[l.id]);
+  const levelTitle = levels.find((l) => l.id === level)?.title_en;
+
+  // Open the level the learner chose last time, or the one they are working on.
+  useEffect(() => {
+    if (!loaded) return;
+    let saved: string | null = null;
+    try {
+      saved = localStorage.getItem(LEVEL_KEY);
+    } catch {}
+    const start = levels.some((l) => l.id === saved) ? saved! : (nextOverall?.level ?? levels[0].id);
+    setLevel(start);
+    // Only on first load; later the learner picks the level.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loaded]);
+
+  const chooseLevel = (id: string) => {
+    setLevel(id);
+    try {
+      localStorage.setItem(LEVEL_KEY, id);
+    } catch {}
+  };
 
   return (
     <div className="space-y-6">
@@ -71,9 +98,32 @@ export function HomeView({ lessons, story }: { lessons: LessonSummary[]; story: 
       </section>
 
       <section>
-        <h2 className="mb-3 text-lg font-bold">A1 · Beginner</h2>
+        <div className="mb-3 grid grid-cols-4 gap-1.5 rounded-2xl bg-surface p-1.5" role="tablist" aria-label="Level">
+          {levels.map((lv) => {
+            const all = lessons.filter((l) => l.level === lv.id);
+            const done = all.filter((l) => progress.lessons[l.id]).length;
+            const active = lv.id === level;
+            return (
+              <button
+                key={lv.id}
+                role="tab"
+                aria-selected={active}
+                onClick={() => chooseLevel(lv.id)}
+                className={`rounded-xl px-2 py-2 text-center transition ${active ? "bg-brand text-brand-ink" : "hover:bg-brand-soft"}`}
+              >
+                <span className="block text-base font-bold">{lv.id}</span>
+                <span className={`block text-xs ${active ? "opacity-80" : "text-muted"}`}>
+                  {done}/{all.length}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+        <h2 className="mb-3 text-lg font-bold">
+          {level} · {levelTitle}
+        </h2>
         <ol className="space-y-2.5">
-          {lessons.map((l) => {
+          {levelLessons.map((l) => {
             const done = progress.lessons[l.id];
             const isNext = loaded && l.id === nextLesson?.id;
             return (

@@ -1,0 +1,130 @@
+{
+  "id": "b1-03",
+  "level": "B1",
+  "order": 3,
+  "title_de": "Im Verein",
+  "title_en": "Joining a club",
+  "goal_en": "Talk about hobbies and interests with reflexive verbs and verbs with prepositions.",
+  "scene": {
+    "setting_en": "Tobias brings Emma to the sports club in Marzling. The chairman, Herr Brandl, welcomes her.",
+    "lines": [
+      { "speaker": "herr_brandl", "de": "Servus! Sie sind also die Engländerin, von der Tobias so viel erzählt hat.", "en": "Hi! So you're the Englishwoman Tobias has told us so much about." },
+      { "speaker": "emma", "de": "Ja, genau. Ich interessiere mich für Ihre Laufgruppe.", "en": "Yes, exactly. I'm interested in your running group." },
+      { "speaker": "herr_brandl", "de": "Wunderbar! Wir treffen uns jeden Dienstag um sieben am Sportplatz.", "en": "Wonderful! We meet every Tuesday at seven at the sports ground." },
+      { "speaker": "emma", "de": "Muss ich mich vorher anmelden?", "en": "Do I have to register beforehand?" },
+      { "speaker": "herr_brandl", "de": "Sie können erst mal zweimal mitlaufen. Wenn es Ihnen gefällt, füllen Sie den Mitgliedsantrag aus.", "en": "You can run with us twice first. If you like it, you fill in the membership form." },
+      { "speaker": "tobias", "de": "Und im Sommer gibt es das Vereinsfest. Darauf freuen sich alle schon!", "en": "And in summer there's the club party. Everyone's already looking forward to it!" },
+      { "speaker": "emma", "de": "Klingt super. Ich freue mich darauf, neue Leute kennenzulernen.", "en": "Sounds great. I'm looking forward to meeting new people." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "verein", "de": "Verein", "article": "der", "plural": "die Vereine", "type": "noun", "en": "club / association", "example_de": "In Bayern ist fast jeder in einem Verein.", "example_en": "In Bavaria almost everyone is in a club." },
+    { "id": "mitglied", "de": "Mitglied", "article": "das", "plural": "die Mitglieder", "type": "noun", "en": "member", "example_de": "Ich bin seit Mai Mitglied.", "example_en": "I've been a member since May." },
+    { "id": "sportplatz", "de": "Sportplatz", "article": "der", "plural": "die Sportplätze", "type": "noun", "en": "sports ground", "example_de": "Wir treffen uns am Sportplatz.", "example_en": "We meet at the sports ground." },
+    { "id": "freizeit", "de": "Freizeit", "article": "die", "plural": null, "type": "noun", "en": "free time / leisure", "example_de": "In meiner Freizeit laufe ich.", "example_en": "In my free time I go running." },
+    { "id": "sich_interessieren", "de": "sich interessieren für", "type": "verb", "en": "to be interested in", "example_de": "Ich interessiere mich für Fußball.", "example_en": "I'm interested in football." },
+    { "id": "sich_freuen_auf", "de": "sich freuen auf", "type": "verb", "en": "to look forward to", "example_de": "Wir freuen uns auf den Sommer.", "example_en": "We're looking forward to the summer." },
+    { "id": "sich_freuen_ueber", "de": "sich freuen über", "type": "verb", "en": "to be happy about", "example_de": "Sie freut sich über das Geschenk.", "example_en": "She's happy about the present." },
+    { "id": "sich_treffen", "de": "sich treffen", "type": "verb", "en": "to meet (up)", "example_de": "Wir treffen uns um sieben.", "example_en": "We're meeting at seven." },
+    { "id": "sich_anmelden", "de": "sich anmelden", "type": "verb", "en": "to register / to sign up", "example_de": "Du musst dich online anmelden.", "example_en": "You have to sign up online." },
+    { "id": "teilnehmen", "de": "teilnehmen an", "type": "verb", "en": "to take part in", "example_de": "Ich nehme am Stadtlauf teil.", "example_en": "I'm taking part in the town run." },
+    { "id": "darauf", "de": "darauf / worauf", "type": "adverb", "en": "to it / to what (with 'auf' verbs)", "example_de": "Worauf freust du dich? – Auf das Fest. Ich freue mich auch darauf.", "example_en": "What are you looking forward to? – The party. I'm looking forward to it too." }
+  ],
+  "grammar": {
+    "title_en": "Reflexive verbs and verbs with prepositions",
+    "explanation_en": "Reflexive verbs come with a pronoun that refers back to the subject: 'Ich freue mich.' Many verbs also need a fixed preposition, and you have to learn them together: sich interessieren für, sich freuen auf (something in the future), sich freuen über (something that has happened), teilnehmen an. For things, replace the preposition + noun with da- + preposition: 'auf das Fest' → 'darauf'. In questions use wo- + preposition: 'Wofür interessierst du dich?' Add -r- before a vowel: darauf, worüber.",
+    "table": {
+      "headers": ["", "Reflexive pronoun", "Example"],
+      "rows": [
+        ["ich", "mich", "Ich freue mich."],
+        ["du", "dich", "Freust du dich?"],
+        ["er / sie / es", "sich", "Sie interessiert sich für Musik."],
+        ["wir", "uns", "Wir treffen uns morgen."],
+        ["ihr", "euch", "Meldet ihr euch an?"],
+        ["sie / Sie", "sich", "Melden Sie sich bitte an."]
+      ]
+    },
+    "examples": [
+      { "de": "Wofür interessierst du dich?", "en": "What are you interested in?" },
+      { "de": "Ich freue mich über deine Nachricht.", "en": "I'm happy about your message." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1-03-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which preposition goes with 'sich interessieren'?",
+      "options": ["für", "auf", "an"],
+      "answer": 0
+    },
+    {
+      "id": "b1-03-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the reflexive pronoun.",
+      "sentence_de": "Wir treffen ___ jeden Dienstag.",
+      "options": ["uns", "sich", "euch"],
+      "answer": "uns",
+      "translation_en": "We meet every Tuesday."
+    },
+    {
+      "id": "b1-03-e3",
+      "type": "gap_fill",
+      "prompt_en": "The party is next month. Choose the right preposition.",
+      "sentence_de": "Alle freuen sich ___ das Vereinsfest.",
+      "options": ["auf", "über", "für"],
+      "answer": "auf",
+      "translation_en": "Everyone is looking forward to the club party."
+    },
+    {
+      "id": "b1-03-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["interessiere", "Ich", "mich", "die", "für", "Laufgruppe", "."],
+      "answer": "Ich interessiere mich für die Laufgruppe.",
+      "translation_en": "I'm interested in the running group."
+    },
+    {
+      "id": "b1-03-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Ich freue mich darauf.",
+      "accept": ["Ich freue mich darauf."],
+      "translation_en": "I'm looking forward to it."
+    },
+    {
+      "id": "b1-03-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English.",
+      "pairs": [
+        { "de": "sich freuen auf", "en": "to look forward to" },
+        { "de": "sich freuen über", "en": "to be happy about" },
+        { "de": "teilnehmen an", "en": "to take part in" },
+        { "de": "sich anmelden", "en": "to sign up" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "After your second run, Herr Brandl asks if you want to join.",
+    "turns": [
+      { "speaker": "herr_brandl", "de": "Na, Frau Clarke, wie hat es Ihnen gefallen?", "en": "So, Ms Clarke, how did you like it?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Sehr gut! Ich möchte mich gern anmelden.", "correct": true, "feedback_en": "Perfect! The reflexive pronoun 'mich' matches 'ich'." },
+          { "de": "Sehr gut! Ich möchte sich gern anmelden.", "correct": false, "feedback_en": "With 'ich' the reflexive pronoun is 'mich'." },
+          { "de": "Sehr gut! Ich möchte mich gern anmelde.", "correct": false, "feedback_en": "After a modal verb the main verb is in the infinitive: 'anmelden'." }
+        ]
+      },
+      { "speaker": "herr_brandl", "de": "Prima! Im Juni ist der Stadtlauf in Freising. Haben Sie Lust?", "en": "Great! In June there's the town run in Freising. Do you fancy it?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja, daran nehme ich gern teil!", "correct": true, "feedback_en": "Excellent! 'teilnehmen an' → 'daran'." },
+          { "de": "Ja, darauf nehme ich gern teil!", "correct": false, "feedback_en": "The preposition is 'an': 'teilnehmen an' → 'daran'." },
+          { "de": "Ja, ich teilnehme gern daran!", "correct": false, "feedback_en": "'teilnehmen' is separable: 'Ich nehme daran teil.'" }
+        ]
+      },
+      { "speaker": "herr_brandl", "de": "Sehr schön. Dann trainieren wir ab jetzt dafür. Willkommen im Verein!", "en": "Very good. Then from now on we'll train for it. Welcome to the club!" }
+    ]
+  }
+}

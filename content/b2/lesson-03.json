@@ -1,0 +1,126 @@
+{
+  "id": "b2-03",
+  "level": "B2",
+  "order": 3,
+  "title_de": "In der Zeitung",
+  "title_en": "In the newspaper",
+  "goal_en": "Understand a short news report and describe people and things with relative clauses.",
+  "scene": {
+    "setting_en": "The local paper has written about Marzling's new running group for beginners. Frau Huber reads it aloud to Emma.",
+    "lines": [
+      { "speaker": "frau_huber", "de": "„Die Anfänger-Laufgruppe, die seit Mai jeden Donnerstag am Sportplatz trainiert, hat inzwischen über dreißig Mitglieder.“", "en": "'The beginners' running group, which has been training at the sports ground every Thursday since May, now has over thirty members.'" },
+      { "speaker": "frau_huber", "de": "„Gegründet wurde sie von Emma Clarke, einer Krankenschwester aus England, die seit zwei Jahren in Marzling lebt.“", "en": "'It was founded by Emma Clarke, a nurse from England who has lived in Marzling for two years.'" },
+      { "speaker": "emma", "de": "Oh nein, steht da auch das Foto, auf dem ich so rot im Gesicht bin?", "en": "Oh no, is the photo in there where my face is so red?" },
+      { "speaker": "frau_huber", "de": "Ja, aber Sie sehen glücklich aus! Hören Sie: „Das Ziel, für das die Gruppe trainiert, ist der Stadtlauf in Freising.“", "en": "Yes, but you look happy! Listen: 'The goal the group is training for is the town run in Freising.'" },
+      { "speaker": "emma", "de": "Und erwähnen sie auch die Leute, ohne die es die Gruppe nicht gäbe?", "en": "And do they also mention the people without whom the group wouldn't exist?" },
+      { "speaker": "frau_huber", "de": "„Unterstützt wird das Projekt vom Sportverein, dessen Vorsitzender Josef Brandl begeistert ist.“", "en": "'The project is supported by the sports club, whose chairman Josef Brandl is delighted.'" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "zeitung", "de": "Zeitung", "article": "die", "plural": "die Zeitungen", "type": "noun", "en": "newspaper", "example_de": "Ich lese die Zeitung beim Frühstück.", "example_en": "I read the newspaper at breakfast." },
+    { "id": "artikel", "de": "Artikel", "article": "der", "plural": "die Artikel", "type": "noun", "en": "article", "example_de": "Der Artikel ist sehr positiv.", "example_en": "The article is very positive." },
+    { "id": "ziel", "de": "Ziel", "article": "das", "plural": "die Ziele", "type": "noun", "en": "goal / destination", "example_de": "Unser Ziel ist der Stadtlauf.", "example_en": "Our goal is the town run." },
+    { "id": "vorsitzende", "de": "Vorsitzende", "article": "der / die", "plural": "die Vorsitzenden", "type": "noun", "en": "chair(man / woman)", "example_de": "Der Vorsitzende eröffnet die Sitzung.", "example_en": "The chairman opens the meeting." },
+    { "id": "gruenden", "de": "gründen", "type": "verb", "en": "to found / to set up", "example_de": "Sie hat eine Laufgruppe gegründet.", "example_en": "She set up a running group." },
+    { "id": "unterstuetzen", "de": "unterstützen", "type": "verb", "en": "to support", "example_de": "Der Verein unterstützt das Projekt.", "example_en": "The club supports the project." },
+    { "id": "erwaehnen", "de": "erwähnen", "type": "verb", "en": "to mention", "example_de": "Der Artikel erwähnt auch Frau Huber.", "example_en": "The article also mentions Mrs Huber." },
+    { "id": "inzwischen", "de": "inzwischen", "type": "adverb", "en": "meanwhile / by now", "example_de": "Inzwischen spricht sie fließend Deutsch.", "example_en": "By now she speaks fluent German." },
+    { "id": "begeistert", "de": "begeistert", "type": "adjective", "en": "enthusiastic / delighted", "example_de": "Alle sind begeistert von der Idee.", "example_en": "Everyone is delighted with the idea." },
+    { "id": "dessen_deren", "de": "dessen / deren", "type": "pronoun", "en": "whose", "example_de": "Die Frau, deren Hund bellt, ist meine Nachbarin.", "example_en": "The woman whose dog is barking is my neighbour." }
+  ],
+  "grammar": {
+    "title_en": "Relative clauses",
+    "explanation_en": "Relative clauses describe a noun more closely, like 'who', 'which' or 'that' in English. The relative pronoun takes its gender and number from the noun, and its case from its role in the relative clause. The verb goes to the end, and there are always commas. With a preposition, the preposition comes first: 'das Ziel, für das die Gruppe trainiert'. 'Whose' is 'dessen' (masculine and neuter) or 'deren' (feminine and plural). Unlike English, you can never leave the relative pronoun out.",
+    "table": {
+      "headers": ["", "masculine", "feminine", "neuter", "plural"],
+      "rows": [
+        ["Nominative", "der", "die", "das", "die"],
+        ["Accusative", "den", "die", "das", "die"],
+        ["Dative", "dem", "der", "dem", "denen"],
+        ["Genitive", "dessen", "deren", "dessen", "deren"]
+      ]
+    },
+    "examples": [
+      { "de": "Das ist der Artikel, den ich dir geschickt habe.", "en": "That's the article (that) I sent you." },
+      { "de": "Die Leute, mit denen ich laufe, sind sehr nett.", "en": "The people I run with are very nice." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2-03-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Choose the right relative pronoun: 'Die Gruppe, ___ jeden Dienstag trainiert, …'",
+      "options": ["die", "der", "den"],
+      "answer": 0
+    },
+    {
+      "id": "b2-03-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Das ist der Artikel, ___ ich gelesen habe.",
+      "options": ["den", "der", "dem"],
+      "answer": "den",
+      "translation_en": "That's the article I read."
+    },
+    {
+      "id": "b2-03-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Die Leute, mit ___ ich laufe, sind sehr nett.",
+      "options": ["denen", "den", "die"],
+      "answer": "denen",
+      "translation_en": "The people I run with are very nice."
+    },
+    {
+      "id": "b2-03-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["Krankenschwester,", "Emma", "ist", "eine", "die", "England", "aus", "kommt", "."],
+      "answer": "Emma ist eine Krankenschwester, die aus England kommt.",
+      "translation_en": "Emma is a nurse who comes from England."
+    },
+    {
+      "id": "b2-03-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Der Verein, dessen Vorsitzender begeistert ist, unterstützt das Projekt.",
+      "accept": ["Der Verein, dessen Vorsitzender begeistert ist, unterstützt das Projekt."],
+      "translation_en": "The club, whose chairman is delighted, supports the project."
+    },
+    {
+      "id": "b2-03-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English.",
+      "pairs": [
+        { "de": "gründen", "en": "to found" },
+        { "de": "unterstützen", "en": "to support" },
+        { "de": "erwähnen", "en": "to mention" },
+        { "de": "inzwischen", "en": "by now" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "A journalist from the local paper (played by Lukas, who loves acting) calls you for a follow-up interview.",
+    "turns": [
+      { "speaker": "lukas", "de": "Frau Clarke, wer kann bei Ihrer Laufgruppe mitmachen?", "en": "Ms Clarke, who can join your running group?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Alle, die Lust auf Bewegung haben, sind willkommen.", "correct": true, "feedback_en": "Perfect relative clause: 'die' (plural), verb at the end." },
+          { "de": "Alle, die haben Lust auf Bewegung, sind willkommen.", "correct": false, "feedback_en": "In a relative clause the verb goes to the end: '… Lust auf Bewegung haben'." },
+          { "de": "Alle, denen Lust auf Bewegung haben, sind willkommen.", "correct": false, "feedback_en": "'denen' is dative. Here you need nominative plural: 'die'." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Und was ist Ihnen besonders wichtig?", "en": "And what's especially important to you?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Eine Gruppe, in der sich niemand zu langsam fühlt.", "correct": true, "feedback_en": "Excellent! Preposition + relative pronoun: 'in der'." },
+          { "de": "Eine Gruppe, der sich niemand zu langsam fühlt.", "correct": false, "feedback_en": "You need the preposition: 'in der' (in which)." },
+          { "de": "Eine Gruppe, in die sich niemand zu langsam fühlt.", "correct": false, "feedback_en": "'in' + location (where?) takes the dative: 'in der'." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Vielen Dank für das Gespräch. Das wird ein schöner Artikel!", "en": "Thank you for the interview. That'll make a nice article!" }
+    ]
+  }
+}

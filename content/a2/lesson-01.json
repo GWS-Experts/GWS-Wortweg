@@ -1,0 +1,374 @@
+{
+  "id": "a2-01",
+  "level": "A2",
+  "order": 1,
+  "title_de": "Beim Arzt",
+  "title_en": "At the doctor's",
+  "goal_en": "Describe how you feel, understand advice and use modal verbs.",
+  "scene": {
+    "setting_en": "Emma has had a sore throat for three days. She goes to the family doctor in Marzling.",
+    "lines": [
+      {
+        "speaker": "dr_weber",
+        "de": "Grüß Gott, Frau Clarke. Was fehlt Ihnen denn?",
+        "en": "Hello, Ms Clarke. What seems to be the problem?"
+      },
+      {
+        "speaker": "emma",
+        "de": "Ich habe seit drei Tagen Halsschmerzen und mein Kopf tut weh.",
+        "en": "I've had a sore throat for three days and my head hurts."
+      },
+      {
+        "speaker": "dr_weber",
+        "de": "Haben Sie auch Fieber?",
+        "en": "Do you have a temperature as well?"
+      },
+      {
+        "speaker": "emma",
+        "de": "Ja, gestern Abend hatte ich 38,5 Grad.",
+        "en": "Yes, last night I had 38.5 degrees."
+      },
+      {
+        "speaker": "dr_weber",
+        "de": "Das ist eine Erkältung. Sie müssen viel trinken und Sie sollten zwei Tage im Bett bleiben.",
+        "en": "It's a cold. You must drink a lot and you should stay in bed for two days."
+      },
+      {
+        "speaker": "emma",
+        "de": "Darf ich morgen arbeiten? Ich bin Krankenschwester.",
+        "en": "May I work tomorrow? I'm a nurse."
+      },
+      {
+        "speaker": "dr_weber",
+        "de": "Nein, im Krankenhaus dürfen Sie so nicht arbeiten. Ich schreibe Sie bis Freitag krank.",
+        "en": "No, you mustn't work at the hospital like this. I'll sign you off sick until Friday."
+      },
+      {
+        "speaker": "emma",
+        "de": "Okay. Kann ich die Tabletten in der Apotheke holen?",
+        "en": "Okay. Can I get the tablets at the pharmacy?"
+      },
+      {
+        "speaker": "dr_weber",
+        "de": "Ja, hier ist das Rezept. Gute Besserung!",
+        "en": "Yes, here is the prescription. Get well soon!"
+      }
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "kopf",
+      "de": "Kopf",
+      "article": "der",
+      "plural": "die Köpfe",
+      "type": "noun",
+      "en": "head",
+      "example_de": "Mein Kopf tut weh.",
+      "example_en": "My head hurts."
+    },
+    {
+      "id": "hals",
+      "de": "Hals",
+      "article": "der",
+      "plural": "die Hälse",
+      "type": "noun",
+      "en": "throat / neck",
+      "example_de": "Ich habe Halsschmerzen.",
+      "example_en": "I have a sore throat."
+    },
+    {
+      "id": "bauch",
+      "de": "Bauch",
+      "article": "der",
+      "plural": "die Bäuche",
+      "type": "noun",
+      "en": "stomach / belly",
+      "example_de": "Der Bauch tut mir weh.",
+      "example_en": "My stomach hurts."
+    },
+    {
+      "id": "fieber",
+      "de": "Fieber",
+      "article": "das",
+      "plural": null,
+      "type": "noun",
+      "en": "fever / temperature",
+      "example_de": "Haben Sie Fieber?",
+      "example_en": "Do you have a temperature?"
+    },
+    {
+      "id": "erkaeltung",
+      "de": "Erkältung",
+      "article": "die",
+      "plural": "die Erkältungen",
+      "type": "noun",
+      "en": "cold",
+      "example_de": "Ich habe eine Erkältung.",
+      "example_en": "I have a cold."
+    },
+    {
+      "id": "rezept",
+      "de": "Rezept",
+      "article": "das",
+      "plural": "die Rezepte",
+      "type": "noun",
+      "en": "prescription (also: recipe)",
+      "example_de": "Hier ist das Rezept für die Tabletten.",
+      "example_en": "Here is the prescription for the tablets."
+    },
+    {
+      "id": "apotheke",
+      "de": "Apotheke",
+      "article": "die",
+      "plural": "die Apotheken",
+      "type": "noun",
+      "en": "pharmacy",
+      "example_de": "Die Apotheke ist neben dem Rathaus.",
+      "example_en": "The pharmacy is next to the town hall."
+    },
+    {
+      "id": "wehtun",
+      "de": "wehtun",
+      "type": "verb",
+      "en": "to hurt",
+      "example_de": "Mein Rücken tut weh.",
+      "example_en": "My back hurts."
+    },
+    {
+      "id": "muessen",
+      "de": "müssen",
+      "type": "verb",
+      "en": "must / to have to",
+      "example_de": "Sie müssen viel trinken.",
+      "example_en": "You have to drink a lot."
+    },
+    {
+      "id": "duerfen",
+      "de": "dürfen",
+      "type": "verb",
+      "en": "may / to be allowed to",
+      "example_de": "Darf ich morgen arbeiten?",
+      "example_en": "May I work tomorrow?"
+    },
+    {
+      "id": "sollen",
+      "de": "sollen",
+      "type": "verb",
+      "en": "should / to be supposed to",
+      "example_de": "Sie sollten im Bett bleiben.",
+      "example_en": "You should stay in bed."
+    },
+    {
+      "id": "gute_besserung",
+      "de": "Gute Besserung!",
+      "type": "phrase",
+      "en": "Get well soon!",
+      "example_de": "Gute Besserung, Emma!",
+      "example_en": "Get well soon, Emma!"
+    }
+  ],
+  "grammar": {
+    "title_en": "Modal verbs: können, müssen, dürfen, sollen",
+    "explanation_en": "Modal verbs say what you can, must, may or should do. The modal verb takes the normal verb position (second), and the main verb goes to the very end in its infinitive form: 'Sie müssen viel trinken.' With ich and er/sie/es, modal verbs have no ending and often change their vowel: 'ich kann', 'er darf'. Careful: 'nicht dürfen' means 'must not', while 'nicht müssen' means 'don't have to'. For advice, Germans often use 'sollten' (should): 'Sie sollten im Bett bleiben.'",
+    "table": {
+      "headers": [
+        "",
+        "können",
+        "müssen",
+        "dürfen",
+        "sollen"
+      ],
+      "rows": [
+        [
+          "ich",
+          "kann",
+          "muss",
+          "darf",
+          "soll"
+        ],
+        [
+          "du",
+          "kannst",
+          "musst",
+          "darfst",
+          "sollst"
+        ],
+        [
+          "er / sie / es",
+          "kann",
+          "muss",
+          "darf",
+          "soll"
+        ],
+        [
+          "wir / sie / Sie",
+          "können",
+          "müssen",
+          "dürfen",
+          "sollen"
+        ]
+      ]
+    },
+    "examples": [
+      {
+        "de": "Ich kann heute nicht arbeiten.",
+        "en": "I can't work today."
+      },
+      {
+        "de": "Sie dürfen nicht rauchen.",
+        "en": "You must not smoke."
+      },
+      {
+        "de": "Du musst nicht kommen.",
+        "en": "You don't have to come."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2-01-e1",
+      "type": "multiple_choice",
+      "prompt_en": "What does 'Sie dürfen nicht arbeiten' mean?",
+      "options": [
+        "You don't have to work.",
+        "You must not work.",
+        "You can't work well."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "a2-01-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich ___ heute im Bett bleiben.",
+      "options": [
+        "muss",
+        "müssen",
+        "musst"
+      ],
+      "answer": "muss",
+      "translation_en": "I have to stay in bed today."
+    },
+    {
+      "id": "a2-01-e3",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order. The main verb goes to the end.",
+      "words": [
+        "sollten",
+        "Sie",
+        "viel",
+        "trinken",
+        "Wasser",
+        "."
+      ],
+      "answer": "Sie sollten viel Wasser trinken.",
+      "translation_en": "You should drink a lot of water."
+    },
+    {
+      "id": "a2-01-e4",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Mein Kopf ___ weh.",
+      "options": [
+        "tut",
+        "tun",
+        "ist"
+      ],
+      "answer": "tut",
+      "translation_en": "My head hurts."
+    },
+    {
+      "id": "a2-01-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Ich habe seit gestern Fieber.",
+      "accept": [
+        "Ich habe seit gestern Fieber."
+      ],
+      "translation_en": "I've had a temperature since yesterday."
+    },
+    {
+      "id": "a2-01-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        {
+          "de": "die Apotheke",
+          "en": "pharmacy"
+        },
+        {
+          "de": "das Rezept",
+          "en": "prescription"
+        },
+        {
+          "de": "der Hals",
+          "en": "throat"
+        },
+        {
+          "de": "die Erkältung",
+          "en": "cold"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "You are at the pharmacy in Marzling with your prescription.",
+    "turns": [
+      {
+        "speaker": "frau_huber",
+        "de": "Oh, Emma! Was machen Sie denn hier? Sind Sie krank?",
+        "en": "Oh, Emma! What are you doing here? Are you ill?"
+      },
+      {
+        "learner": true,
+        "options": [
+          {
+            "de": "Ja, ich habe eine Erkältung und Halsschmerzen.",
+            "correct": true,
+            "feedback_en": "Perfect! Clear and natural."
+          },
+          {
+            "de": "Ja, ich bin eine Erkältung.",
+            "correct": false,
+            "feedback_en": "In German you 'have' a cold: 'Ich habe eine Erkältung.'"
+          },
+          {
+            "de": "Ja, mein Hals tut mir gut.",
+            "correct": false,
+            "feedback_en": "'tut gut' means 'does good'. Use 'tut weh' for pain."
+          }
+        ]
+      },
+      {
+        "speaker": "frau_huber",
+        "de": "Sie Arme! Müssen Sie morgen arbeiten?",
+        "en": "You poor thing! Do you have to work tomorrow?"
+      },
+      {
+        "learner": true,
+        "options": [
+          {
+            "de": "Nein, ich darf bis Freitag nicht arbeiten.",
+            "correct": true,
+            "feedback_en": "Great use of 'nicht dürfen' (must not)."
+          },
+          {
+            "de": "Nein, ich muss bis Freitag nicht arbeiten dürfen.",
+            "correct": false,
+            "feedback_en": "Too many modal verbs! One is enough: 'Ich darf nicht arbeiten.'"
+          },
+          {
+            "de": "Nein, ich darf arbeiten nicht bis Freitag.",
+            "correct": false,
+            "feedback_en": "The main verb 'arbeiten' goes to the end of the sentence."
+          }
+        ]
+      },
+      {
+        "speaker": "frau_huber",
+        "de": "Dann ruhen Sie sich gut aus. Gute Besserung!",
+        "en": "Then get plenty of rest. Get well soon!"
+      }
+    ]
+  }
+}

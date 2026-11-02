@@ -63,3 +63,5 @@ export type LessonSummary = Pick<Lesson, "id" | "level" | "order" | "title_de" |
 export type ReviewWord = Pick<Vocab, "id" | "de" | "article" | "en" | "example_de" | "example_en"> & {
   lessonId: string;
 };
+
+export type Level = { id: string; title_en: string };

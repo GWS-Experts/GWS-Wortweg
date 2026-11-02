@@ -1,0 +1,128 @@
+{
+  "id": "b2-01",
+  "level": "B2",
+  "order": 1,
+  "title_de": "Eine Beschwerde schreiben",
+  "title_en": "Writing a complaint",
+  "goal_en": "Write a formal complaint and describe what happened using the passive voice.",
+  "scene": {
+    "setting_en": "Emma ordered a washing machine online. It arrived damaged. She reads her complaint email to Tobias before sending it.",
+    "lines": [
+      { "speaker": "emma", "de": "Hör mal: „Sehr geehrte Damen und Herren, am 3. März wurde mir eine Waschmaschine geliefert.“", "en": "Listen: 'Dear Sir or Madam, on 3 March a washing machine was delivered to me.'" },
+      { "speaker": "emma", "de": "„Leider wurde das Gerät beim Transport beschädigt. Die Tür ist gebrochen und lässt sich nicht schließen.“", "en": "'Unfortunately the appliance was damaged in transit. The door is broken and cannot be closed.'" },
+      { "speaker": "tobias", "de": "Klingt gut. Hast du auch geschrieben, was du erwartest?", "en": "Sounds good. Did you also write what you expect?" },
+      { "speaker": "emma", "de": "Ja: „Ich bitte Sie, das Gerät innerhalb von zwei Wochen abholen zu lassen und mir ein neues zu schicken.“", "en": "Yes: 'I ask you to have the appliance collected within two weeks and to send me a new one.'" },
+      { "speaker": "tobias", "de": "Sehr gut. Und erwähn, dass die Schäden fotografiert worden sind. Das macht Eindruck.", "en": "Very good. And mention that the damage has been photographed. That makes an impression." },
+      { "speaker": "emma", "de": "Stimmt. „Fotos der Schäden sind im Anhang beigefügt. Mit freundlichen Grüßen, Emma Clarke.“", "en": "True. 'Photos of the damage are attached. Kind regards, Emma Clarke.'" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "beschwerde", "de": "Beschwerde", "article": "die", "plural": "die Beschwerden", "type": "noun", "en": "complaint", "example_de": "Ich möchte mich beschweren. / Ich habe eine Beschwerde.", "example_en": "I'd like to complain. / I have a complaint." },
+    { "id": "lieferung", "de": "Lieferung", "article": "die", "plural": "die Lieferungen", "type": "noun", "en": "delivery", "example_de": "Die Lieferung kam zu spät.", "example_en": "The delivery came too late." },
+    { "id": "schaden", "de": "Schaden", "article": "der", "plural": "die Schäden", "type": "noun", "en": "damage", "example_de": "Der Schaden wurde fotografiert.", "example_en": "The damage was photographed." },
+    { "id": "geraet", "de": "Gerät", "article": "das", "plural": "die Geräte", "type": "noun", "en": "appliance / device", "example_de": "Das Gerät ist defekt.", "example_en": "The appliance is faulty." },
+    { "id": "anhang", "de": "Anhang", "article": "der", "plural": "die Anhänge", "type": "noun", "en": "attachment", "example_de": "Die Rechnung finden Sie im Anhang.", "example_en": "Please find the invoice attached." },
+    { "id": "ersatz", "de": "Ersatz", "article": "der", "plural": null, "type": "noun", "en": "replacement", "example_de": "Ich verlange einen Ersatz.", "example_en": "I demand a replacement." },
+    { "id": "beschaedigen", "de": "beschädigen", "type": "verb", "en": "to damage", "example_de": "Das Paket wurde beschädigt.", "example_en": "The parcel was damaged." },
+    { "id": "liefern", "de": "liefern", "type": "verb", "en": "to deliver", "example_de": "Die Möbel werden morgen geliefert.", "example_en": "The furniture is being delivered tomorrow." },
+    { "id": "erwarten", "de": "erwarten", "type": "verb", "en": "to expect", "example_de": "Ich erwarte eine schnelle Antwort.", "example_en": "I expect a quick reply." },
+    { "id": "sehr_geehrte", "de": "Sehr geehrte Damen und Herren", "type": "phrase", "en": "Dear Sir or Madam", "example_de": "Sehr geehrte Damen und Herren, ich schreibe Ihnen wegen …", "example_en": "Dear Sir or Madam, I'm writing to you about …" },
+    { "id": "mfg", "de": "Mit freundlichen Grüßen", "type": "phrase", "en": "Kind regards / Yours sincerely", "example_de": "Mit freundlichen Grüßen, Emma Clarke", "example_en": "Kind regards, Emma Clarke" }
+  ],
+  "grammar": {
+    "title_en": "The passive voice",
+    "explanation_en": "The passive puts the action in the centre, not the person doing it. It's formed with 'werden' + past participle at the end: 'Die Waschmaschine wird geliefert.' (is being delivered). Past: 'wurde geliefert' (was delivered). Perfect: 'ist geliefert worden' (note: 'worden', not 'geworden'). If you want to name who did it, use 'von' + dative: 'von der Spedition'. With a modal verb: 'Das Gerät muss abgeholt werden.' To describe a state (not an action), use 'sein' + participle: 'Die Tür ist gebrochen.'",
+    "table": {
+      "headers": ["Tense", "Passive"],
+      "rows": [
+        ["Present", "Das Gerät wird geliefert."],
+        ["Präteritum", "Das Gerät wurde geliefert."],
+        ["Perfekt", "Das Gerät ist geliefert worden."],
+        ["With modal verb", "Das Gerät muss abgeholt werden."],
+        ["State", "Das Gerät ist beschädigt."]
+      ]
+    },
+    "examples": [
+      { "de": "Die Schäden sind fotografiert worden.", "en": "The damage has been photographed." },
+      { "de": "Die Ware wurde von der Spedition beschädigt.", "en": "The goods were damaged by the haulier." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2-01-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which sentence is in the passive?",
+      "options": ["Der Fahrer liefert das Paket.", "Das Paket wird geliefert.", "Das Paket ist neu."],
+      "answer": 1
+    },
+    {
+      "id": "b2-01-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Die Waschmaschine ___ am 3. März geliefert.",
+      "options": ["wurde", "wird worden", "hat"],
+      "answer": "wurde",
+      "translation_en": "The washing machine was delivered on 3 March."
+    },
+    {
+      "id": "b2-01-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap (passive Perfekt).",
+      "sentence_de": "Die Schäden sind fotografiert ___.",
+      "options": ["worden", "geworden", "werden"],
+      "answer": "worden",
+      "translation_en": "The damage has been photographed."
+    },
+    {
+      "id": "b2-01-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["muss", "Das", "abgeholt", "Gerät", "werden", "."],
+      "answer": "Das Gerät muss abgeholt werden.",
+      "translation_en": "The appliance has to be collected."
+    },
+    {
+      "id": "b2-01-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Leider wurde das Gerät beim Transport beschädigt.",
+      "accept": ["Leider wurde das Gerät beim Transport beschädigt."],
+      "translation_en": "Unfortunately the appliance was damaged in transit."
+    },
+    {
+      "id": "b2-01-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English.",
+      "pairs": [
+        { "de": "der Anhang", "en": "attachment" },
+        { "de": "der Ersatz", "en": "replacement" },
+        { "de": "die Lieferung", "en": "delivery" },
+        { "de": "der Schaden", "en": "damage" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Two days later the shop calls you. Lukas plays the customer service agent so you can practise first.",
+    "turns": [
+      { "speaker": "lukas", "de": "Guten Tag, Frau Clarke. Wir haben Ihre E-Mail erhalten. Können Sie den Schaden kurz beschreiben?", "en": "Hello, Ms Clarke. We've received your email. Could you briefly describe the damage?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja, die Tür wurde beim Transport beschädigt und lässt sich nicht schließen.", "correct": true, "feedback_en": "Precise and formal. Well done!" },
+          { "de": "Ja, die Tür hat beim Transport beschädigt.", "correct": false, "feedback_en": "The door didn't damage anything; it was damaged: 'wurde beschädigt'." },
+          { "de": "Ja, die Tür ist beim Transport beschädigt geworden.", "correct": false, "feedback_en": "In the passive Perfekt it's 'worden': 'ist beschädigt worden'." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Das tut uns leid. Wir können Ihnen einen Gutschein über 50 Euro anbieten.", "en": "We're sorry about that. We can offer you a 50-euro voucher." },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Das reicht mir leider nicht. Ich erwarte, dass das Gerät abgeholt und ersetzt wird.", "correct": true, "feedback_en": "Firm and polite, with a passive in the dass clause. Excellent!" },
+          { "de": "Das reicht mir nicht. Ich erwarte, dass das Gerät wird abgeholt.", "correct": false, "feedback_en": "In a dass clause, 'wird' goes to the end: '… abgeholt wird'." },
+          { "de": "Okay, danke für den Gutschein.", "correct": false, "feedback_en": "That's allowed, but Emma wants a new machine. Stand your ground!" }
+        ]
+      },
+      { "speaker": "lukas", "de": "Verstanden. Die Maschine wird nächste Woche abgeholt, und Sie bekommen ein neues Gerät.", "en": "Understood. The machine will be collected next week and you'll get a new appliance." }
+    ]
+  }
+}

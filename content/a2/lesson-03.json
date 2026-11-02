@@ -1,0 +1,127 @@
+{
+  "id": "a2-03",
+  "level": "A2",
+  "order": 3,
+  "title_de": "Im Landratsamt",
+  "title_en": "At the district office",
+  "goal_en": "Handle an appointment at a public office and use separable verbs.",
+  "scene": {
+    "setting_en": "Emma wants to exchange her British driving licence for a German one. She has an appointment at the Landratsamt in Freising.",
+    "lines": [
+      { "speaker": "frau_yilmaz", "de": "Guten Tag. Haben Sie einen Termin?", "en": "Hello. Do you have an appointment?" },
+      { "speaker": "emma", "de": "Ja, um zehn Uhr. Ich möchte meinen Führerschein umschreiben lassen.", "en": "Yes, at ten. I'd like to have my driving licence exchanged." },
+      { "speaker": "frau_yilmaz", "de": "Haben Sie das Formular schon ausgefüllt?", "en": "Have you already filled in the form?" },
+      { "speaker": "emma", "de": "Ja, hier. Und ich habe auch ein Passfoto mitgebracht.", "en": "Yes, here. And I've brought a passport photo too." },
+      { "speaker": "frau_yilmaz", "de": "Sehr gut. Dann brauche ich noch Ihren Pass und die Meldebescheinigung.", "en": "Very good. Then I also need your passport and your registration certificate." },
+      { "speaker": "emma", "de": "Bitte schön. Wann kann ich den neuen Führerschein abholen?", "en": "Here you are. When can I pick up the new licence?" },
+      { "speaker": "frau_yilmaz", "de": "In etwa sechs Wochen. Wir rufen Sie an. Die Gebühr zahlen Sie bitte vorne an der Kasse.", "en": "In about six weeks. We'll call you. Please pay the fee at the cash desk at the front." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "termin", "de": "Termin", "article": "der", "plural": "die Termine", "type": "noun", "en": "appointment", "example_de": "Ich habe morgen einen Termin beim Arzt.", "example_en": "I have a doctor's appointment tomorrow." },
+    { "id": "fuehrerschein", "de": "Führerschein", "article": "der", "plural": "die Führerscheine", "type": "noun", "en": "driving licence", "example_de": "Hast du einen Führerschein?", "example_en": "Do you have a driving licence?" },
+    { "id": "formular", "de": "Formular", "article": "das", "plural": "die Formulare", "type": "noun", "en": "form", "example_de": "Bitte füllen Sie das Formular aus.", "example_en": "Please fill in the form." },
+    { "id": "gebuehr", "de": "Gebühr", "article": "die", "plural": "die Gebühren", "type": "noun", "en": "fee", "example_de": "Die Gebühr kostet 35 Euro.", "example_en": "The fee is 35 euros." },
+    { "id": "pass", "de": "Pass", "article": "der", "plural": "die Pässe", "type": "noun", "en": "passport", "example_de": "Ich brauche meinen Pass.", "example_en": "I need my passport." },
+    { "id": "ausfuellen", "de": "ausfüllen", "type": "verb", "en": "to fill in (a form)", "example_de": "Ich fülle das Formular aus.", "example_en": "I'm filling in the form." },
+    { "id": "mitbringen", "de": "mitbringen", "type": "verb", "en": "to bring along", "example_de": "Bringen Sie bitte ein Foto mit.", "example_en": "Please bring a photo." },
+    { "id": "abholen", "de": "abholen", "type": "verb", "en": "to pick up / to collect", "example_de": "Ich hole den Führerschein im Dezember ab.", "example_en": "I'll pick up the licence in December." },
+    { "id": "anrufen", "de": "anrufen", "type": "verb", "en": "to call (on the phone)", "example_de": "Wir rufen Sie an.", "example_en": "We'll call you." },
+    { "id": "unterschreiben", "de": "unterschreiben", "type": "verb", "en": "to sign", "example_de": "Unterschreiben Sie bitte hier.", "example_en": "Please sign here.", "note_en": "'unter-' is not separable here: 'Ich unterschreibe.'" }
+  ],
+  "grammar": {
+    "title_en": "Separable verbs",
+    "explanation_en": "Many German verbs have a prefix like an-, ab-, aus- or mit-. In a normal sentence the prefix splits off and goes to the end: 'ausfüllen' → 'Ich fülle das Formular aus.' With a modal verb, the verb stays together at the end: 'Ich muss das Formular ausfüllen.' In the Perfekt, -ge- goes between prefix and verb: 'ausgefüllt', 'mitgebracht', 'angerufen'. The prefix is stressed when you speak: AUSfüllen, ANrufen.",
+    "table": {
+      "headers": ["Infinitive", "Present", "Perfekt"],
+      "rows": [
+        ["ausfüllen", "Ich fülle das Formular aus.", "Ich habe es ausgefüllt."],
+        ["mitbringen", "Ich bringe ein Foto mit.", "Ich habe ein Foto mitgebracht."],
+        ["abholen", "Ich hole den Pass ab.", "Ich habe den Pass abgeholt."],
+        ["anrufen", "Wir rufen Sie an.", "Wir haben Sie angerufen."]
+      ]
+    },
+    "examples": [
+      { "de": "Wann kann ich den Führerschein abholen?", "en": "When can I pick up the licence?" },
+      { "de": "Ruf mich morgen an!", "en": "Call me tomorrow!" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2-03-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which sentence is correct?",
+      "options": ["Ich ausfülle das Formular.", "Ich fülle das Formular aus.", "Ich fülle aus das Formular."],
+      "answer": 1
+    },
+    {
+      "id": "a2-03-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich habe ein Passfoto ___.",
+      "options": ["mitgebracht", "gemitbracht", "mitbringen"],
+      "answer": "mitgebracht",
+      "translation_en": "I've brought a passport photo."
+    },
+    {
+      "id": "a2-03-e3",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["rufen", "Wir", "Sie", "morgen", "an", "."],
+      "answer": "Wir rufen Sie morgen an.",
+      "translation_en": "We'll call you tomorrow."
+    },
+    {
+      "id": "a2-03-e4",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Wann kann ich den Führerschein ___?",
+      "options": ["abholen", "hole ab", "abgeholt"],
+      "answer": "abholen",
+      "translation_en": "When can I pick up the driving licence?"
+    },
+    {
+      "id": "a2-03-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Bitte füllen Sie das Formular aus.",
+      "accept": ["Bitte füllen Sie das Formular aus."],
+      "translation_en": "Please fill in the form."
+    },
+    {
+      "id": "a2-03-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        { "de": "der Termin", "en": "appointment" },
+        { "de": "die Gebühr", "en": "fee" },
+        { "de": "abholen", "en": "to pick up" },
+        { "de": "unterschreiben", "en": "to sign" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "You call the Landratsamt because you haven't heard anything for eight weeks.",
+    "turns": [
+      { "speaker": "frau_yilmaz", "de": "Landratsamt Freising, Führerscheinstelle, Yılmaz. Was kann ich für Sie tun?", "en": "Freising district office, driving licence office, Yılmaz speaking. What can I do for you?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Guten Tag, hier ist Emma Clarke. Kann ich meinen Führerschein schon abholen?", "correct": true, "feedback_en": "Perfect! Polite, and the modal verb keeps 'abholen' together at the end." },
+          { "de": "Guten Tag, ich hole meinen Führerschein ab schon?", "correct": false, "feedback_en": "For a yes/no question start with the verb: 'Kann ich ... abholen?'" },
+          { "de": "Hallo, ich anrufe wegen Führerschein.", "correct": false, "feedback_en": "'anrufen' splits: 'Ich rufe an.' Also: 'wegen meines Führerscheins'." }
+        ]
+      },
+      { "speaker": "frau_yilmaz", "de": "Einen Moment ... Ja, er ist fertig. Bringen Sie bitte Ihren alten Führerschein mit.", "en": "One moment ... Yes, it's ready. Please bring your old licence with you." },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Gut, ich bringe ihn mit. Vielen Dank!", "correct": true, "feedback_en": "Great! 'mitbringen' splits correctly." },
+          { "de": "Gut, ich mitbringe ihn.", "correct": false, "feedback_en": "The prefix goes to the end: 'Ich bringe ihn mit.'" },
+          { "de": "Gut, ich habe ihn mitbringen.", "correct": false, "feedback_en": "Here you need the present tense: 'Ich bringe ihn mit.'" }
+        ]
+      },
+      { "speaker": "frau_yilmaz", "de": "Gern geschehen. Auf Wiederhören!", "en": "You're welcome. Goodbye! (on the phone)" }
+    ]
+  }
+}

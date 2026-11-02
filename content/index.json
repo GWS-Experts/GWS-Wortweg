@@ -14,6 +14,36 @@
         "lesson-05.json",
         "lesson-06.json"
       ]
+    },
+    {
+      "id": "A2",
+      "title_en": "Elementary",
+      "lessons": [
+        "lesson-01.json",
+        "lesson-02.json",
+        "lesson-03.json",
+        "lesson-04.json"
+      ]
+    },
+    {
+      "id": "B1",
+      "title_en": "Intermediate",
+      "lessons": [
+        "lesson-01.json",
+        "lesson-02.json",
+        "lesson-03.json",
+        "lesson-04.json"
+      ]
+    },
+    {
+      "id": "B2",
+      "title_en": "Upper intermediate",
+      "lessons": [
+        "lesson-01.json",
+        "lesson-02.json",
+        "lesson-03.json",
+        "lesson-04.json"
+      ]
     }
   ]
 }

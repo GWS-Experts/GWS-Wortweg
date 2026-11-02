@@ -1,0 +1,130 @@
+{
+  "id": "b1-02",
+  "level": "B1",
+  "order": 2,
+  "title_de": "Ein Jahr in Marzling",
+  "title_en": "A year in Marzling",
+  "goal_en": "Tell a story about the past using the simple past (Präteritum).",
+  "scene": {
+    "setting_en": "Emma has lived in Marzling for a year. She writes a blog post for her friends in England, in German, for practice.",
+    "lines": [
+      { "speaker": "emma", "de": "Vor einem Jahr kam ich mit zwei Koffern in Marzling an.", "en": "A year ago I arrived in Marzling with two suitcases." },
+      { "speaker": "emma", "de": "Ich kannte niemanden und verstand fast kein Wort.", "en": "I didn't know anyone and understood almost no words." },
+      { "speaker": "emma", "de": "Am ersten Tag war ich sehr nervös, aber Frau Huber wartete schon mit Kaffee auf mich.", "en": "On the first day I was very nervous, but Mrs Huber was already waiting for me with coffee." },
+      { "speaker": "emma", "de": "Im Winter hatte ich oft Heimweh, weil es so früh dunkel wurde.", "en": "In winter I was often homesick because it got dark so early." },
+      { "speaker": "emma", "de": "Dann lernte ich Tobias und Lukas kennen, und alles wurde leichter.", "en": "Then I got to know Tobias and Lukas, and everything got easier." },
+      { "speaker": "emma", "de": "Heute fühle ich mich hier zu Hause. Marzling ist klein, aber ich möchte nicht mehr weg.", "en": "Today I feel at home here. Marzling is small, but I don't want to leave any more." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "koffer", "de": "Koffer", "article": "der", "plural": "die Koffer", "type": "noun", "en": "suitcase", "example_de": "Mein Koffer ist zu schwer.", "example_en": "My suitcase is too heavy." },
+    { "id": "heimweh", "de": "Heimweh", "article": "das", "plural": null, "type": "noun", "en": "homesickness", "example_de": "Im Winter hatte sie Heimweh.", "example_en": "In winter she was homesick." },
+    { "id": "erfahrung", "de": "Erfahrung", "article": "die", "plural": "die Erfahrungen", "type": "noun", "en": "experience", "example_de": "Das war eine gute Erfahrung.", "example_en": "That was a good experience." },
+    { "id": "ankommen", "de": "ankommen", "type": "verb", "en": "to arrive", "example_de": "Der Zug kam pünktlich an.", "example_en": "The train arrived on time." },
+    { "id": "kennenlernen", "de": "kennenlernen", "type": "verb", "en": "to get to know / to meet", "example_de": "Wir lernten uns im Krankenhaus kennen.", "example_en": "We met at the hospital." },
+    { "id": "verstehen", "de": "verstehen", "type": "verb", "en": "to understand", "example_de": "Am Anfang verstand ich nichts.", "example_en": "At first I understood nothing." },
+    { "id": "werden", "de": "werden", "type": "verb", "en": "to become / to get", "example_de": "Es wurde dunkel.", "example_en": "It got dark." },
+    { "id": "sich_fuehlen", "de": "sich fühlen", "type": "verb", "en": "to feel", "example_de": "Ich fühle mich hier wohl.", "example_en": "I feel comfortable here." },
+    { "id": "nervoes", "de": "nervös", "type": "adjective", "en": "nervous", "example_de": "Vor der Prüfung war er nervös.", "example_en": "He was nervous before the exam." },
+    { "id": "damals", "de": "damals", "type": "adverb", "en": "back then / at that time", "example_de": "Damals wohnte ich noch in Leeds.", "example_en": "Back then I still lived in Leeds." },
+    { "id": "vor_einem_jahr", "de": "vor einem Jahr", "type": "phrase", "en": "a year ago", "example_de": "Vor einem Jahr kam ich nach Deutschland.", "example_en": "A year ago I came to Germany." }
+  ],
+  "grammar": {
+    "title_en": "The simple past (Präteritum)",
+    "explanation_en": "In speaking, Germans mostly use the Perfekt. In writing (stories, reports, blogs) they use the Präteritum. Regular verbs add -te: lernen → lernte, warten → wartete. Irregular verbs change their stem and have no ending with ich and er/sie/es: kommen → kam, verstehen → verstand. 'sein', 'haben', 'werden' and the modal verbs are used in the Präteritum even when speaking: war, hatte, wurde, konnte, musste.",
+    "table": {
+      "headers": ["Infinitive", "ich / er / sie", "wir / sie / Sie"],
+      "rows": [
+        ["sein", "war", "waren"],
+        ["haben", "hatte", "hatten"],
+        ["werden", "wurde", "wurden"],
+        ["lernen", "lernte", "lernten"],
+        ["kommen", "kam", "kamen"],
+        ["kennen", "kannte", "kannten"],
+        ["verstehen", "verstand", "verstanden"]
+      ]
+    },
+    "examples": [
+      { "de": "Damals hatte ich keine Freunde hier.", "en": "Back then I had no friends here." },
+      { "de": "Wir lernten uns im Krankenhaus kennen.", "en": "We met at the hospital." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1-02-e1",
+      "type": "multiple_choice",
+      "prompt_en": "What is the Präteritum of 'ich komme'?",
+      "options": ["ich kommte", "ich kam", "ich kamte"],
+      "answer": 1
+    },
+    {
+      "id": "b1-02-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Am ersten Tag ___ ich sehr nervös.",
+      "options": ["war", "bin", "wurde"],
+      "answer": "war",
+      "translation_en": "On the first day I was very nervous."
+    },
+    {
+      "id": "b1-02-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Im Winter ___ es früh dunkel.",
+      "options": ["wurde", "war", "wird"],
+      "answer": "wurde",
+      "translation_en": "In winter it got dark early."
+    },
+    {
+      "id": "b1-02-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["lernte", "Dann", "ich", "Tobias", "kennen", "."],
+      "answer": "Dann lernte ich Tobias kennen.",
+      "translation_en": "Then I got to know Tobias."
+    },
+    {
+      "id": "b1-02-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Damals verstand ich fast kein Wort.",
+      "accept": ["Damals verstand ich fast kein Wort."],
+      "translation_en": "Back then I understood almost no words."
+    },
+    {
+      "id": "b1-02-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match each infinitive with its Präteritum form.",
+      "pairs": [
+        { "de": "haben", "en": "hatte" },
+        { "de": "kennen", "en": "kannte" },
+        { "de": "verstehen", "en": "verstand" },
+        { "de": "warten", "en": "wartete" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Frau Huber reads your blog post and asks about your first day.",
+    "turns": [
+      { "speaker": "frau_huber", "de": "Emma, ich habe Ihren Text gelesen. Wissen Sie noch, wie Sie damals angekommen sind?", "en": "Emma, I read your text. Do you remember how you arrived back then?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Natürlich! Ich war so müde, und es regnete die ganze Zeit.", "correct": true, "feedback_en": "Great storytelling in the Präteritum!" },
+          { "de": "Natürlich! Ich bin so müde, und es regnet die ganze Zeit.", "correct": false, "feedback_en": "That's present tense. For a past story: 'Ich war …, es regnete …'" },
+          { "de": "Natürlich! Ich warte so müde.", "correct": false, "feedback_en": "'warte' is from 'warten' (to wait). The past of 'sein' is 'war'." }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Stimmt, und Sie hatten zwei riesige Koffer dabei!", "en": "True, and you had two enormous suitcases with you!" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja, und Sie warteten schon mit Kaffee auf mich. Das vergesse ich nie.", "correct": true, "feedback_en": "Lovely! 'warteten' is the regular Präteritum of 'warten'." },
+          { "de": "Ja, und Sie wartet schon mit Kaffee auf mich.", "correct": false, "feedback_en": "Polite 'Sie' needs the plural form: 'Sie warteten'." },
+          { "de": "Ja, und Sie warteten schon mit Kaffee für mich auf.", "correct": false, "feedback_en": "The verb is 'warten auf': 'Sie warteten auf mich.'" }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Und jetzt sind Sie eine echte Marzlingerin!", "en": "And now you're a real Marzling local!" }
+    ]
+  }
+}

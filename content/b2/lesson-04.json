@@ -1,0 +1,128 @@
+{
+  "id": "b2-04",
+  "level": "B2",
+  "order": 4,
+  "title_de": "Das Vorstellungsgespräch",
+  "title_en": "The job interview",
+  "goal_en": "Handle a job interview and report what others said using indirect speech.",
+  "scene": {
+    "setting_en": "Emma has applied to become ward manager. Frau Koch, head of nursing, interviews her.",
+    "lines": [
+      { "speaker": "frau_koch", "de": "Frau Clarke, warum möchten Sie die Stationsleitung übernehmen?", "en": "Ms Clarke, why would you like to take over as ward manager?" },
+      { "speaker": "emma", "de": "Ich arbeite seit zwei Jahren auf der Station und kenne die Abläufe sehr gut. Außerdem habe ich in England bereits ein Team geleitet.", "en": "I've worked on the ward for two years and know the processes very well. I also led a team in England before." },
+      { "speaker": "frau_koch", "de": "Wie gehen Sie mit Konflikten im Team um?", "en": "How do you deal with conflicts in the team?" },
+      { "speaker": "emma", "de": "Ich spreche Probleme möglichst früh an und suche gemeinsam mit allen Beteiligten nach einer Lösung.", "en": "I address problems as early as possible and look for a solution together with everyone involved." },
+      { "speaker": "frau_koch", "de": "Und wo sehen Sie Ihre Schwächen?", "en": "And where do you see your weaknesses?" },
+      { "speaker": "emma", "de": "Manchmal übernehme ich zu viele Aufgaben selbst. Daran arbeite ich, indem ich bewusst mehr delegiere.", "en": "Sometimes I take on too many tasks myself. I'm working on that by consciously delegating more." },
+      { "speaker": "frau_koch", "de": "Vielen Dank. Wir melden uns bis Ende nächster Woche bei Ihnen.", "en": "Thank you very much. We'll get back to you by the end of next week." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "vorstellungsgespraech", "de": "Vorstellungsgespräch", "article": "das", "plural": "die Vorstellungsgespräche", "type": "noun", "en": "job interview", "example_de": "Morgen habe ich ein Vorstellungsgespräch.", "example_en": "I have a job interview tomorrow." },
+    { "id": "bewerbung", "de": "Bewerbung", "article": "die", "plural": "die Bewerbungen", "type": "noun", "en": "application", "example_de": "Ich habe meine Bewerbung abgeschickt.", "example_en": "I've sent off my application." },
+    { "id": "stationsleitung", "de": "Stationsleitung", "article": "die", "plural": "die Stationsleitungen", "type": "noun", "en": "ward manager / ward management", "example_de": "Sie übernimmt die Stationsleitung.", "example_en": "She's taking over as ward manager." },
+    { "id": "ablauf", "de": "Ablauf", "article": "der", "plural": "die Abläufe", "type": "noun", "en": "process / procedure", "example_de": "Die Abläufe auf der Station sind klar.", "example_en": "The processes on the ward are clear." },
+    { "id": "staerke", "de": "Stärke / Schwäche", "article": "die", "plural": "die Stärken / die Schwächen", "type": "noun", "en": "strength / weakness", "example_de": "Teamarbeit ist eine meiner Stärken.", "example_en": "Teamwork is one of my strengths." },
+    { "id": "uebernehmen", "de": "übernehmen", "type": "verb", "en": "to take over / to take on", "example_de": "Wer übernimmt die Nachtschicht?", "example_en": "Who's taking the night shift?" },
+    { "id": "leiten", "de": "leiten", "type": "verb", "en": "to lead / to manage", "example_de": "Sie leitet ein Team von zwölf Leuten.", "example_en": "She manages a team of twelve." },
+    { "id": "ansprechen", "de": "ansprechen", "type": "verb", "en": "to address / to raise (an issue)", "example_de": "Ich spreche das Problem morgen an.", "example_en": "I'll raise the problem tomorrow." },
+    { "id": "sich_melden", "de": "sich melden bei", "type": "verb", "en": "to get in touch with", "example_de": "Wir melden uns bei Ihnen.", "example_en": "We'll get in touch with you." },
+    { "id": "indem", "de": "indem", "type": "conjunction", "en": "by (doing)", "example_de": "Ich lerne Deutsch, indem ich jeden Tag übe.", "example_en": "I learn German by practising every day." },
+    { "id": "sie_sagte_sie_sei", "de": "Sie sagte, sie sei …", "type": "phrase", "en": "She said (that) she was …", "example_de": "Sie sagte, sie sei sehr zufrieden.", "example_en": "She said she was very satisfied." }
+  ],
+  "grammar": {
+    "title_en": "Indirect speech (Konjunktiv I)",
+    "explanation_en": "In news, reports and formal German, what someone said is reported with the Konjunktiv I. It shows that you are passing on someone else's words without claiming they're true. It's formed from the infinitive stem + -e: 'sie habe', 'er komme', 'sie könne'. 'sein' is irregular: 'sie sei'. When the Konjunktiv I looks the same as the normal present (mostly with ich, wir, sie plural), use the Konjunktiv II or 'würde' instead: 'Sie sagten, sie hätten keine Zeit.' In everyday speech many Germans simply use the indicative: 'Sie hat gesagt, dass sie sich meldet.'",
+    "table": {
+      "headers": ["Direct speech", "Indirect speech"],
+      "rows": [
+        ["„Ich bin zufrieden.“", "Sie sagte, sie sei zufrieden."],
+        ["„Ich habe Erfahrung.“", "Sie sagte, sie habe Erfahrung."],
+        ["„Wir melden uns.“", "Sie sagte, sie würden sich melden."],
+        ["„Sie können anfangen.“", "Sie sagte, ich könne anfangen."]
+      ]
+    },
+    "examples": [
+      { "de": "Frau Koch sagte, das Gespräch sei sehr gut gewesen.", "en": "Frau Koch said the interview had gone very well." },
+      { "de": "Sie fragte, ob ich im März anfangen könne.", "en": "She asked whether I could start in March." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2-04-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Direct: „Ich bin zufrieden.“ Which is the indirect speech?",
+      "options": ["Sie sagte, sie ist zufrieden gewesen.", "Sie sagte, sie sei zufrieden.", "Sie sagte, sie wäre gewesen zufrieden."],
+      "answer": 1
+    },
+    {
+      "id": "b2-04-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Frau Koch sagte, Emma ___ viel Erfahrung.",
+      "options": ["habe", "hat gehabt", "haben"],
+      "answer": "habe",
+      "translation_en": "Frau Koch said Emma had a lot of experience."
+    },
+    {
+      "id": "b2-04-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich lerne schneller, ___ ich jeden Tag übe.",
+      "options": ["indem", "damit", "obwohl"],
+      "answer": "indem",
+      "translation_en": "I learn faster by practising every day."
+    },
+    {
+      "id": "b2-04-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["fragte,", "Sie", "ich", "ob", "März", "im", "könne", "anfangen", "."],
+      "answer": "Sie fragte, ob ich im März anfangen könne.",
+      "translation_en": "She asked whether I could start in March."
+    },
+    {
+      "id": "b2-04-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Wir melden uns bis Ende nächster Woche bei Ihnen.",
+      "accept": ["Wir melden uns bis Ende nächster Woche bei Ihnen."],
+      "translation_en": "We'll get back to you by the end of next week."
+    },
+    {
+      "id": "b2-04-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English.",
+      "pairs": [
+        { "de": "die Bewerbung", "en": "application" },
+        { "de": "übernehmen", "en": "to take over" },
+        { "de": "leiten", "en": "to manage" },
+        { "de": "der Ablauf", "en": "process" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "A week later Frau Koch has called you. Frau Huber is dying to know what she said.",
+    "turns": [
+      { "speaker": "frau_huber", "de": "Emma, erzählen Sie schon! Was hat Frau Koch gesagt?", "en": "Emma, tell me! What did Frau Koch say?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Sie sagte, ich sei die beste Kandidatin gewesen!", "correct": true, "feedback_en": "Perfect Konjunktiv I in the past: 'sei … gewesen'." },
+          { "de": "Sie sagte, ich bin die beste Kandidatin sei.", "correct": false, "feedback_en": "One verb is enough: 'ich sei die beste Kandidatin gewesen'." },
+          { "de": "Sie sagte, ich habe die beste Kandidatin gewesen.", "correct": false, "feedback_en": "'sein' forms its past with 'sein': 'ich sei … gewesen'." }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Das heißt, Sie haben die Stelle? Wann fangen Sie an?", "en": "That means you got the job? When do you start?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja! Sie fragte, ob ich am ersten April anfangen könne.", "correct": true, "feedback_en": "Excellent! Indirect question with 'ob' and 'könne' at the end." },
+          { "de": "Ja! Sie fragte, ob ich könne am ersten April anfangen.", "correct": false, "feedback_en": "In the ob clause the conjugated verb goes to the very end: '… anfangen könne'." },
+          { "de": "Ja! Sie fragte, dass ich am ersten April anfange.", "correct": false, "feedback_en": "For a reported yes/no question use 'ob', not 'dass'." }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Herzlichen Glückwunsch, Frau Stationsleitung! Das müssen wir feiern. Ich backe einen Kuchen!", "en": "Congratulations, Madam Ward Manager! We have to celebrate. I'll bake a cake!" }
+    ]
+  }
+}

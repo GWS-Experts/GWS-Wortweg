@@ -1,0 +1,130 @@
+{
+  "id": "b1-04",
+  "level": "B1",
+  "order": 4,
+  "title_de": "Ich hätte da einen Vorschlag",
+  "title_en": "I have a suggestion",
+  "goal_en": "Give your opinion, make suggestions and ask politely with würde, könnte and hätte.",
+  "scene": {
+    "setting_en": "There's a residents' meeting in Marzling about a new cycle path to Freising. Emma raises her hand.",
+    "lines": [
+      { "speaker": "herr_brandl", "de": "Gibt es noch Fragen oder Vorschläge? Ja, bitte, Frau Clarke.", "en": "Are there any more questions or suggestions? Yes, please, Ms Clarke." },
+      { "speaker": "emma", "de": "Ich hätte da einen Vorschlag. Ich fahre jeden Tag mit dem Rad ins Krankenhaus.", "en": "I'd have a suggestion. I cycle to the hospital every day." },
+      { "speaker": "emma", "de": "Meiner Meinung nach wäre ein Radweg an der Straße sicherer als der Weg durch den Wald.", "en": "In my opinion a cycle path along the road would be safer than the path through the woods." },
+      { "speaker": "herr_brandl", "de": "Das ist ein interessanter Punkt. Aber an der Straße bräuchten wir mehr Platz.", "en": "That's an interesting point. But along the road we'd need more space." },
+      { "speaker": "emma", "de": "Man könnte vielleicht beleuchtete Wegweiser im Wald aufstellen. Dann würden mehr Leute im Winter das Rad nehmen.", "en": "Perhaps you could put up lit signposts in the woods. Then more people would cycle in winter." },
+      { "speaker": "herr_brandl", "de": "Gute Idee. Würden Sie das bitte noch einmal schriftlich an die Gemeinde schicken?", "en": "Good idea. Would you send that to the municipality in writing, please?" },
+      { "speaker": "emma", "de": "Gern. Wenn ich mehr Zeit hätte, würde ich auch in der Arbeitsgruppe mitmachen.", "en": "Gladly. If I had more time, I'd also join the working group." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "vorschlag", "de": "Vorschlag", "article": "der", "plural": "die Vorschläge", "type": "noun", "en": "suggestion / proposal", "example_de": "Hast du einen besseren Vorschlag?", "example_en": "Do you have a better suggestion?" },
+    { "id": "meinung", "de": "Meinung", "article": "die", "plural": "die Meinungen", "type": "noun", "en": "opinion", "example_de": "Meiner Meinung nach ist das zu teuer.", "example_en": "In my opinion that's too expensive." },
+    { "id": "radweg", "de": "Radweg", "article": "der", "plural": "die Radwege", "type": "noun", "en": "cycle path", "example_de": "Der Radweg führt nach Freising.", "example_en": "The cycle path goes to Freising." },
+    { "id": "gemeinde", "de": "Gemeinde", "article": "die", "plural": "die Gemeinden", "type": "noun", "en": "municipality / local council", "example_de": "Die Gemeinde baut eine neue Schule.", "example_en": "The municipality is building a new school." },
+    { "id": "versammlung", "de": "Versammlung", "article": "die", "plural": "die Versammlungen", "type": "noun", "en": "meeting / assembly", "example_de": "Die Versammlung beginnt um 19 Uhr.", "example_en": "The meeting starts at 7 pm." },
+    { "id": "sicher", "de": "sicher", "type": "adjective", "en": "safe / sure", "example_de": "Der Weg ist nachts nicht sicher.", "example_en": "The path isn't safe at night." },
+    { "id": "vorschlagen", "de": "vorschlagen", "type": "verb", "en": "to suggest", "example_de": "Ich schlage vor, dass wir morgen weitermachen.", "example_en": "I suggest we continue tomorrow." },
+    { "id": "zustimmen", "de": "zustimmen", "type": "verb", "en": "to agree", "example_de": "Da stimme ich Ihnen zu.", "example_en": "I agree with you there." },
+    { "id": "waere", "de": "wäre", "type": "verb", "en": "would be (Konjunktiv II of sein)", "example_de": "Das wäre schön.", "example_en": "That would be nice." },
+    { "id": "haette", "de": "hätte", "type": "verb", "en": "would have (Konjunktiv II of haben)", "example_de": "Ich hätte gern einen Kaffee.", "example_en": "I'd like a coffee." },
+    { "id": "koennte", "de": "könnte", "type": "verb", "en": "could", "example_de": "Könnten Sie mir helfen?", "example_en": "Could you help me?" },
+    { "id": "meiner_meinung_nach", "de": "meiner Meinung nach", "type": "phrase", "en": "in my opinion", "example_de": "Meiner Meinung nach hat sie recht.", "example_en": "In my opinion she's right." }
+  ],
+  "grammar": {
+    "title_en": "Konjunktiv II: would, could, if only",
+    "explanation_en": "The Konjunktiv II expresses wishes, polite requests, suggestions and unreal conditions. For most verbs use 'würde' + infinitive at the end: 'Ich würde mitmachen.' For sein, haben and the modal verbs, Germans use their own short forms: wäre, hätte, könnte, müsste, sollte. Unreal conditions: 'Wenn ich mehr Zeit hätte, würde ich mitmachen.' (I don't have the time.) For polite requests: 'Könnten Sie …?', 'Würden Sie …?'.",
+    "table": {
+      "headers": ["", "sein", "haben", "können", "werden"],
+      "rows": [
+        ["ich", "wäre", "hätte", "könnte", "würde"],
+        ["du", "wärst", "hättest", "könntest", "würdest"],
+        ["er / sie / es", "wäre", "hätte", "könnte", "würde"],
+        ["wir / sie / Sie", "wären", "hätten", "könnten", "würden"]
+      ]
+    },
+    "examples": [
+      { "de": "Könnten Sie das bitte wiederholen?", "en": "Could you repeat that, please?" },
+      { "de": "Wenn ich du wäre, würde ich das Rad nehmen.", "en": "If I were you, I'd take the bike." },
+      { "de": "Es wäre besser, wenn wir früher anfangen würden.", "en": "It would be better if we started earlier." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1-04-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which is the most polite request?",
+      "options": ["Schicken Sie mir das!", "Würden Sie mir das bitte schicken?", "Sie schicken mir das."],
+      "answer": 1
+    },
+    {
+      "id": "b1-04-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Wenn ich mehr Zeit ___, würde ich mitmachen.",
+      "options": ["hätte", "habe", "hatte"],
+      "answer": "hätte",
+      "translation_en": "If I had more time, I'd join in."
+    },
+    {
+      "id": "b1-04-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ein Radweg an der Straße ___ sicherer.",
+      "options": ["wäre", "würde", "war"],
+      "answer": "wäre",
+      "translation_en": "A cycle path along the road would be safer."
+    },
+    {
+      "id": "b1-04-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["Sie", "Könnten", "wiederholen", "das", "bitte", "?"],
+      "answer": "Könnten Sie das bitte wiederholen?",
+      "translation_en": "Could you repeat that, please?"
+    },
+    {
+      "id": "b1-04-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Meiner Meinung nach wäre das besser.",
+      "accept": ["Meiner Meinung nach wäre das besser."],
+      "translation_en": "In my opinion that would be better."
+    },
+    {
+      "id": "b1-04-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English.",
+      "pairs": [
+        { "de": "wäre", "en": "would be" },
+        { "de": "hätte", "en": "would have" },
+        { "de": "könnte", "en": "could" },
+        { "de": "zustimmen", "en": "to agree" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "After the meeting, Tobias wants to know what you think.",
+    "turns": [
+      { "speaker": "tobias", "de": "Und, was hältst du von dem neuen Radweg?", "en": "So, what do you think of the new cycle path?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Meiner Meinung nach wäre er an der Straße sicherer.", "correct": true, "feedback_en": "Perfect! A clear opinion with 'wäre'." },
+          { "de": "Meiner Meinung nach er wäre an der Straße sicherer.", "correct": false, "feedback_en": "'Meiner Meinung nach' takes the first position, so the verb comes next: 'wäre er'." },
+          { "de": "Meiner Meinung nach würde er an der Straße sicherer.", "correct": false, "feedback_en": "With 'sein', use 'wäre', not 'würde' on its own." }
+        ]
+      },
+      { "speaker": "tobias", "de": "Da stimme ich dir zu. Hilfst du mir, den Brief an die Gemeinde zu schreiben?", "en": "I agree with you. Will you help me write the letter to the municipality?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Gern! Wir könnten uns am Samstag treffen.", "correct": true, "feedback_en": "Great suggestion with 'könnten'." },
+          { "de": "Gern! Wir können uns am Samstag treffen könnten.", "correct": false, "feedback_en": "One modal verb is enough: 'Wir könnten uns … treffen.'" },
+          { "de": "Gern! Wenn ich Zeit hätte.", "correct": false, "feedback_en": "That sounds like you don't have time. Suggest a meeting instead." }
+        ]
+      },
+      { "speaker": "tobias", "de": "Super. Und danach könnten wir ja eine Runde mit dem Rad drehen!", "en": "Great. And afterwards we could go for a bike ride!" }
+    ]
+  }
+}

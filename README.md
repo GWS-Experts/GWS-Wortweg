@@ -4,6 +4,7 @@ Kostenlose Web-App, mit der Englischsprachige Deutsch lernen. Die Lektionen folg
 
 ## Funktionen (Version 1)
 
+- 18 Lektionen auf vier Niveaus (A1: 6, A2: 4, B1: 4, B2: 4), auf der Startseite per Reiter wählbar
 - Lektionen mit Szene, neuen Wörtern, Grammatik-Tipp, Übungen und Mini-Gespräch
 - Fünf Übungstypen: Auswahl, Lückentext, Sätze ordnen, Hören und Tippen, Paare finden
 - Sprachausgabe für alle deutschen Sätze (über die Sprachausgabe des Browsers)

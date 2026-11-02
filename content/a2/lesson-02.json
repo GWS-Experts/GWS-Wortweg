@@ -1,0 +1,132 @@
+{
+  "id": "a2-02",
+  "level": "A2",
+  "order": 2,
+  "title_de": "Mein Wochenende an der Isar",
+  "title_en": "My weekend by the Isar",
+  "goal_en": "Talk about what you did using the perfect tense.",
+  "scene": {
+    "setting_en": "Monday morning at the hospital. Emma's colleague Tobias asks about her weekend.",
+    "lines": [
+      { "speaker": "tobias", "de": "Morgen, Emma! Wie war dein Wochenende?", "en": "Morning, Emma! How was your weekend?" },
+      { "speaker": "emma", "de": "Super! Am Samstag bin ich mit dem Fahrrad an der Isar entlang nach Freising gefahren.", "en": "Great! On Saturday I cycled along the Isar to Freising." },
+      { "speaker": "tobias", "de": "Schön! Und was hast du in Freising gemacht?", "en": "Nice! And what did you do in Freising?" },
+      { "speaker": "emma", "de": "Ich habe den Dom besichtigt und auf dem Weihenstephaner Berg ein Bier getrunken.", "en": "I visited the cathedral and had a beer on the Weihenstephan hill." },
+      { "speaker": "tobias", "de": "Sehr gut! Und am Sonntag?", "en": "Very good! And on Sunday?" },
+      { "speaker": "emma", "de": "Da habe ich lange geschlafen und dann mit Frau Huber Kuchen gegessen.", "en": "I had a long lie-in and then ate cake with Mrs Huber." },
+      { "speaker": "tobias", "de": "Ich bin leider zu Hause geblieben und habe die Wohnung geputzt.", "en": "Unfortunately I stayed at home and cleaned the flat." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "wochenende", "de": "Wochenende", "article": "das", "plural": "die Wochenenden", "type": "noun", "en": "weekend", "example_de": "Am Wochenende arbeite ich nicht.", "example_en": "I don't work at the weekend." },
+    { "id": "fahrrad", "de": "Fahrrad", "article": "das", "plural": "die Fahrräder", "type": "noun", "en": "bicycle", "example_de": "Ich fahre mit dem Fahrrad zur Arbeit.", "example_en": "I cycle to work." },
+    { "id": "fluss", "de": "Fluss", "article": "der", "plural": "die Flüsse", "type": "noun", "en": "river", "example_de": "Die Isar ist ein Fluss in Bayern.", "example_en": "The Isar is a river in Bavaria." },
+    { "id": "dom", "de": "Dom", "article": "der", "plural": "die Dome", "type": "noun", "en": "cathedral", "example_de": "Der Freisinger Dom ist sehr alt.", "example_en": "Freising Cathedral is very old." },
+    { "id": "kuchen", "de": "Kuchen", "article": "der", "plural": "die Kuchen", "type": "noun", "en": "cake", "example_de": "Frau Huber backt jeden Sonntag Kuchen.", "example_en": "Mrs Huber bakes cake every Sunday." },
+    { "id": "besichtigen", "de": "besichtigen", "type": "verb", "en": "to visit / to see (a sight)", "example_de": "Wir haben die Altstadt besichtigt.", "example_en": "We visited the old town." },
+    { "id": "bleiben", "de": "bleiben", "type": "verb", "en": "to stay", "example_de": "Ich bin zu Hause geblieben.", "example_en": "I stayed at home." },
+    { "id": "putzen", "de": "putzen", "type": "verb", "en": "to clean", "example_de": "Er hat die Küche geputzt.", "example_en": "He cleaned the kitchen." },
+    { "id": "gestern", "de": "gestern", "type": "adverb", "en": "yesterday", "example_de": "Gestern habe ich lange geschlafen.", "example_en": "Yesterday I had a lie-in." },
+    { "id": "leider", "de": "leider", "type": "adverb", "en": "unfortunately", "example_de": "Leider hat es geregnet.", "example_en": "Unfortunately it rained." },
+    { "id": "entlang", "de": "entlang", "type": "preposition", "en": "along", "example_de": "Wir sind die Isar entlang gelaufen.", "example_en": "We walked along the Isar." }
+  ],
+  "grammar": {
+    "title_en": "The perfect tense (Perfekt)",
+    "explanation_en": "When Germans talk about the past, they mostly use the Perfekt. It has two parts: 'haben' or 'sein' in second position, and the past participle at the end. Most verbs use 'haben'. Verbs of movement from A to B (fahren, gehen, kommen) and of change (aufstehen, einschlafen), plus 'bleiben' and 'sein', use 'sein'. Regular verbs form the participle with ge- ... -t (machen → gemacht). Irregular verbs often end in -en and may change the vowel (trinken → getrunken). Verbs ending in -ieren and verbs starting with be- take no ge-: besichtigt, studiert.",
+    "table": {
+      "headers": ["Infinitive", "Helper", "Participle"],
+      "rows": [
+        ["machen", "haben", "gemacht"],
+        ["putzen", "haben", "geputzt"],
+        ["trinken", "haben", "getrunken"],
+        ["essen", "haben", "gegessen"],
+        ["besichtigen", "haben", "besichtigt"],
+        ["fahren", "sein", "gefahren"],
+        ["bleiben", "sein", "geblieben"]
+      ]
+    },
+    "examples": [
+      { "de": "Ich habe einen Kaffee getrunken.", "en": "I drank a coffee." },
+      { "de": "Wir sind nach Freising gefahren.", "en": "We went to Freising." },
+      { "de": "Was hast du am Wochenende gemacht?", "en": "What did you do at the weekend?" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2-02-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which helper verb goes with 'fahren' in the Perfekt?",
+      "options": ["haben", "sein", "werden"],
+      "answer": 1
+    },
+    {
+      "id": "a2-02-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich habe am Sonntag lange ___.",
+      "options": ["geschlafen", "schlafen", "geschlaft"],
+      "answer": "geschlafen",
+      "translation_en": "I slept for a long time on Sunday."
+    },
+    {
+      "id": "a2-02-e3",
+      "type": "gap_fill",
+      "prompt_en": "Choose the right helper verb.",
+      "sentence_de": "Tobias ___ zu Hause geblieben.",
+      "options": ["ist", "hat", "war"],
+      "answer": "ist",
+      "translation_en": "Tobias stayed at home."
+    },
+    {
+      "id": "a2-02-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["habe", "Ich", "den", "besichtigt", "Dom", "."],
+      "answer": "Ich habe den Dom besichtigt.",
+      "translation_en": "I visited the cathedral."
+    },
+    {
+      "id": "a2-02-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Wir sind mit dem Fahrrad gefahren.",
+      "accept": ["Wir sind mit dem Fahrrad gefahren."],
+      "translation_en": "We went by bike."
+    },
+    {
+      "id": "a2-02-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match each verb with its past participle.",
+      "pairs": [
+        { "de": "essen", "en": "gegessen" },
+        { "de": "trinken", "en": "getrunken" },
+        { "de": "machen", "en": "gemacht" },
+        { "de": "bleiben", "en": "geblieben" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Lukas asks you about your weekend at the bakery.",
+    "turns": [
+      { "speaker": "lukas", "de": "Servus Emma! Was hast du am Wochenende gemacht?", "en": "Hi Emma! What did you do at the weekend?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ich bin nach Freising gefahren und habe den Dom besichtigt.", "correct": true, "feedback_en": "Excellent! 'sein' for fahren, 'haben' for besichtigen." },
+          { "de": "Ich habe nach Freising gefahren.", "correct": false, "feedback_en": "'fahren' (movement from A to B) uses 'sein': 'Ich bin gefahren.'" },
+          { "de": "Ich bin den Dom besichtigt.", "correct": false, "feedback_en": "'besichtigen' uses 'haben': 'Ich habe den Dom besichtigt.'" }
+        ]
+      },
+      { "speaker": "lukas", "de": "Cool. Und hast du schon den Kuchen von Frau Huber probiert?", "en": "Cool. And have you tried Mrs Huber's cake yet?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja, am Sonntag haben wir zusammen Kuchen gegessen.", "correct": true, "feedback_en": "Perfect! Note the verb in second position after 'am Sonntag'." },
+          { "de": "Ja, am Sonntag wir haben Kuchen gegessen.", "correct": false, "feedback_en": "After 'am Sonntag' the verb comes next: 'am Sonntag haben wir ...'" },
+          { "de": "Ja, ich habe Kuchen geesst.", "correct": false, "feedback_en": "'essen' is irregular: the participle is 'gegessen'." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Der ist super, oder? Der beste Kuchen in Marzling!", "en": "It's great, isn't it? The best cake in Marzling!" }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "b2-02",
+  "level": "B2",
+  "order": 2,
+  "title_de": "Stadt oder Land?",
+  "title_en": "Town or country?",
+  "goal_en": "Weigh up arguments and connect ideas with obwohl, trotzdem, während and je … desto.",
+  "scene": {
+    "setting_en": "Tobias is thinking about moving to Munich. Over dinner, he and Emma discuss the pros and cons.",
+    "lines": [
+      { "speaker": "tobias", "de": "In München gibt es so viel mehr Kultur. Obwohl die Mieten dort extrem hoch sind, reizt mich die Stadt.", "en": "There's so much more culture in Munich. Although the rents there are extremely high, the city appeals to me." },
+      { "speaker": "emma", "de": "Das verstehe ich. Trotzdem würdest du viel Zeit im Verkehr verlieren.", "en": "I understand that. Even so, you'd lose a lot of time in traffic." },
+      { "speaker": "tobias", "de": "Während du hier die Ruhe genießt, langweile ich mich manchmal ein bisschen.", "en": "While you enjoy the peace and quiet here, I sometimes get a bit bored." },
+      { "speaker": "emma", "de": "Je länger ich in Marzling wohne, desto mehr schätze ich das Dorfleben.", "en": "The longer I live in Marzling, the more I appreciate village life." },
+      { "speaker": "emma", "de": "Man hat sowohl die Natur vor der Tür als auch die Stadt in vierzig Minuten erreichbar.", "en": "You have both nature on your doorstep and the city within forty minutes' reach." },
+      { "speaker": "tobias", "de": "Da hast du recht. Vielleicht sollte ich erst mal öfter nach München fahren, anstatt gleich umzuziehen.", "en": "You're right there. Maybe I should go to Munich more often first instead of moving straight away." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "miete", "de": "Miete", "article": "die", "plural": "die Mieten", "type": "noun", "en": "rent", "example_de": "Die Mieten in München steigen jedes Jahr.", "example_en": "Rents in Munich rise every year." },
+    { "id": "verkehr", "de": "Verkehr", "article": "der", "plural": null, "type": "noun", "en": "traffic", "example_de": "Im Berufsverkehr steht man oft im Stau.", "example_en": "In rush hour you're often stuck in traffic." },
+    { "id": "vorteil", "de": "Vorteil / Nachteil", "article": "der", "plural": "die Vorteile / die Nachteile", "type": "noun", "en": "advantage / disadvantage", "example_de": "Ein Vorteil vom Land ist die Ruhe.", "example_en": "One advantage of the countryside is the peace and quiet." },
+    { "id": "umziehen", "de": "umziehen", "type": "verb", "en": "to move (house)", "example_de": "Wir ziehen nächsten Monat um.", "example_en": "We're moving next month." },
+    { "id": "schaetzen", "de": "schätzen", "type": "verb", "en": "to appreciate / to estimate", "example_de": "Ich schätze die Natur hier sehr.", "example_en": "I really appreciate the nature here." },
+    { "id": "geniessen", "de": "genießen", "type": "verb", "en": "to enjoy", "example_de": "Sie genießt die Ruhe am Abend.", "example_en": "She enjoys the quiet in the evening." },
+    { "id": "obwohl", "de": "obwohl", "type": "conjunction", "en": "although", "example_de": "Obwohl es regnet, gehen wir spazieren.", "example_en": "Although it's raining, we're going for a walk." },
+    { "id": "trotzdem", "de": "trotzdem", "type": "adverb", "en": "nevertheless / even so", "example_de": "Es regnet. Trotzdem gehen wir spazieren.", "example_en": "It's raining. Even so, we're going for a walk." },
+    { "id": "waehrend", "de": "während", "type": "conjunction", "en": "while / whereas", "example_de": "Während er liest, kocht sie.", "example_en": "While he reads, she cooks." },
+    { "id": "je_desto", "de": "je … desto", "type": "conjunction", "en": "the … the …", "example_de": "Je früher, desto besser.", "example_en": "The earlier, the better." },
+    { "id": "sowohl_als_auch", "de": "sowohl … als auch", "type": "conjunction", "en": "both … and", "example_de": "Sie spricht sowohl Englisch als auch Deutsch.", "example_en": "She speaks both English and German." },
+    { "id": "anstatt", "de": "anstatt … zu", "type": "conjunction", "en": "instead of (doing)", "example_de": "Anstatt zu fahren, gehe ich zu Fuß.", "example_en": "Instead of driving, I walk." }
+  ],
+  "grammar": {
+    "title_en": "Connecting ideas: obwohl vs. trotzdem, während, je … desto",
+    "explanation_en": "'obwohl' (although) is a conjunction: it starts a subordinate clause with the verb at the end. 'trotzdem' (even so) is an adverb: it takes position 1 of a main clause, so the verb comes straight after it. Both express a contrast. 'während' can mean 'while' (at the same time) or 'whereas' (contrast) and also sends the verb to the end. 'je … desto' compares two developments: the je part has the verb at the end, the desto part is followed by the verb.",
+    "table": {
+      "headers": ["Connector", "Word order", "Example"],
+      "rows": [
+        ["obwohl", "verb at the end", "Obwohl die Miete hoch ist, ziehe ich um."],
+        ["trotzdem", "verb right after", "Die Miete ist hoch. Trotzdem ziehe ich um."],
+        ["während", "verb at the end", "Während ich koche, liest er."],
+        ["je … desto", "je: verb at end / desto: verb next", "Je länger ich hier wohne, desto lieber mag ich es."]
+      ]
+    },
+    "examples": [
+      { "de": "Obwohl er in Marzling wohnt, arbeitet er in München.", "en": "Although he lives in Marzling, he works in Munich." },
+      { "de": "Je mehr ich übe, desto besser spreche ich.", "en": "The more I practise, the better I speak." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b2-02-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which sentence is correct?",
+      "options": ["Die Miete ist hoch. Trotzdem ich ziehe um.", "Die Miete ist hoch. Trotzdem ziehe ich um.", "Trotzdem die Miete hoch ist, ziehe ich um."],
+      "answer": 1
+    },
+    {
+      "id": "b2-02-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "___ es dort laut ist, möchte er in die Stadt ziehen.",
+      "options": ["Obwohl", "Trotzdem", "Desto"],
+      "answer": "Obwohl",
+      "translation_en": "Although it's noisy there, he wants to move to the city."
+    },
+    {
+      "id": "b2-02-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Je länger ich hier wohne, ___ mehr gefällt es mir.",
+      "options": ["desto", "je", "als"],
+      "answer": "desto",
+      "translation_en": "The longer I live here, the more I like it."
+    },
+    {
+      "id": "b2-02-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["Ruhe", "Während", "du", "genießt,", "die", "langweile", "mich", "ich", "."],
+      "answer": "Während du die Ruhe genießt, langweile ich mich.",
+      "translation_en": "While you enjoy the quiet, I get bored."
+    },
+    {
+      "id": "b2-02-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Je früher wir losfahren, desto besser.",
+      "accept": ["Je früher wir losfahren, desto besser."],
+      "translation_en": "The earlier we leave, the better."
+    },
+    {
+      "id": "b2-02-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English.",
+      "pairs": [
+        { "de": "obwohl", "en": "although" },
+        { "de": "trotzdem", "en": "even so" },
+        { "de": "der Nachteil", "en": "disadvantage" },
+        { "de": "umziehen", "en": "to move house" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Frau Huber has heard that Tobias might move. She asks your opinion.",
+    "turns": [
+      { "speaker": "frau_huber", "de": "Stimmt es, dass Tobias nach München ziehen will? Was meinen Sie dazu?", "en": "Is it true that Tobias wants to move to Munich? What do you think about it?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Obwohl München spannend ist, wäre er hier glücklicher.", "correct": true, "feedback_en": "Well argued, with perfect word order." },
+          { "de": "Obwohl München ist spannend, wäre er hier glücklicher.", "correct": false, "feedback_en": "After 'obwohl' the verb goes to the end: '… spannend ist'." },
+          { "de": "Trotzdem München spannend ist, wäre er hier glücklicher.", "correct": false, "feedback_en": "'trotzdem' can't start a subordinate clause. Use 'obwohl'." }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Das sehe ich genauso. Aber die jungen Leute wollen eben was erleben.", "en": "I see it the same way. But young people want to experience things." },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Das stimmt. Trotzdem kann man von hier aus sowohl wandern als auch ins Theater gehen.", "correct": true, "feedback_en": "Excellent! 'trotzdem' + verb, and 'sowohl … als auch'." },
+          { "de": "Das stimmt. Trotzdem man kann von hier aus wandern.", "correct": false, "feedback_en": "After 'trotzdem' the verb comes next: 'Trotzdem kann man …'" },
+          { "de": "Das stimmt. Je man wandert, desto Theater.", "correct": false, "feedback_en": "'je … desto' needs two comparatives: 'Je mehr …, desto …'" }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Sie haben recht. Ich backe ihm einen Kuchen, vielleicht bleibt er dann.", "en": "You're right. I'll bake him a cake, maybe then he'll stay." }
+    ]
+  }
+}

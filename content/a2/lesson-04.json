@@ -1,0 +1,130 @@
+{
+  "id": "a2-04",
+  "level": "A2",
+  "order": 4,
+  "title_de": "Auf dem Volksfest",
+  "title_en": "At the folk festival",
+  "goal_en": "Say what you like and give things to people using the dative.",
+  "scene": {
+    "setting_en": "It's the Freising folk festival. Emma goes with Tobias and Lukas.",
+    "lines": [
+      { "speaker": "tobias", "de": "Und, wie gefällt dir das Volksfest?", "en": "So, how do you like the folk festival?" },
+      { "speaker": "emma", "de": "Es gefällt mir sehr! Aber die Musik ist ganz schön laut.", "en": "I like it a lot! But the music is pretty loud." },
+      { "speaker": "lukas", "de": "Komm, wir fahren mit dem Riesenrad!", "en": "Come on, let's go on the Ferris wheel!" },
+      { "speaker": "emma", "de": "Lieber nicht, mir ist ein bisschen schwindelig. Ich habe zu viel Zuckerwatte gegessen.", "en": "Better not, I feel a bit dizzy. I've eaten too much candy floss." },
+      { "speaker": "tobias", "de": "Dann kaufe ich dir ein Lebkuchenherz. Das schenke ich dir.", "en": "Then I'll buy you a gingerbread heart. It's a present from me." },
+      { "speaker": "emma", "de": "Oh, danke! Das gebe ich Frau Huber. Sie liebt Lebkuchen.", "en": "Oh, thanks! I'll give it to Mrs Huber. She loves gingerbread." },
+      { "speaker": "lukas", "de": "Typisch Emma! Immer denkt sie an die anderen.", "en": "Typical Emma! She always thinks of others." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "volksfest", "de": "Volksfest", "article": "das", "plural": "die Volksfeste", "type": "noun", "en": "folk festival / fair", "example_de": "Im Sommer gibt es ein Volksfest in Freising.", "example_en": "There's a folk festival in Freising in the summer." },
+    { "id": "riesenrad", "de": "Riesenrad", "article": "das", "plural": "die Riesenräder", "type": "noun", "en": "Ferris wheel", "example_de": "Vom Riesenrad sieht man die Alpen.", "example_en": "You can see the Alps from the Ferris wheel." },
+    { "id": "lebkuchenherz", "de": "Lebkuchenherz", "article": "das", "plural": "die Lebkuchenherzen", "type": "noun", "en": "gingerbread heart", "example_de": "Er schenkt ihr ein Lebkuchenherz.", "example_en": "He gives her a gingerbread heart." },
+    { "id": "musik", "de": "Musik", "article": "die", "plural": null, "type": "noun", "en": "music", "example_de": "Die Musik gefällt mir.", "example_en": "I like the music." },
+    { "id": "gefallen", "de": "gefallen", "type": "verb", "en": "to please (to be liked by)", "example_de": "Das Fest gefällt mir.", "example_en": "I like the festival." },
+    { "id": "schenken", "de": "schenken", "type": "verb", "en": "to give (as a present)", "example_de": "Ich schenke dir ein Buch.", "example_en": "I'm giving you a book." },
+    { "id": "geben", "de": "geben", "type": "verb", "en": "to give", "example_de": "Gib mir bitte das Wasser.", "example_en": "Please give me the water." },
+    { "id": "helfen", "de": "helfen", "type": "verb", "en": "to help", "example_de": "Kann ich Ihnen helfen?", "example_en": "Can I help you?" },
+    { "id": "laut_leise", "de": "laut / leise", "type": "adjective", "en": "loud / quiet", "example_de": "Die Musik ist zu laut.", "example_en": "The music is too loud." },
+    { "id": "lieber", "de": "lieber", "type": "adverb", "en": "rather / preferably", "example_de": "Ich trinke lieber Wasser.", "example_en": "I'd rather drink water." },
+    { "id": "schwindelig", "de": "schwindelig", "type": "adjective", "en": "dizzy", "example_de": "Mir ist schwindelig.", "example_en": "I feel dizzy." }
+  ],
+  "grammar": {
+    "title_en": "The dative: to whom?",
+    "explanation_en": "The dative answers the question 'wem?' (to whom?). It's used for the person who receives something (geben, schenken, zeigen), with some verbs (gefallen, helfen, danken, gehören) and after prepositions like mit, bei, von, zu, nach and aus. 'Das gefällt mir' literally means 'That pleases me', so the thing you like is the subject. Feelings also use the dative: 'Mir ist kalt' (I'm cold).",
+    "table": {
+      "headers": ["Nominative", "Dative", "Article (dative)"],
+      "rows": [
+        ["ich", "mir", "der Mann → dem Mann"],
+        ["du", "dir", "die Frau → der Frau"],
+        ["er / sie", "ihm / ihr", "das Kind → dem Kind"],
+        ["wir / ihr", "uns / euch", "die Leute → den Leuten"],
+        ["sie / Sie", "ihnen / Ihnen", ""]
+      ]
+    },
+    "examples": [
+      { "de": "Ich gebe der Nachbarin den Kuchen.", "en": "I'm giving the cake to the neighbour." },
+      { "de": "Wir fahren mit dem Bus.", "en": "We're going by bus." },
+      { "de": "Kannst du mir helfen?", "en": "Can you help me?" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a2-04-e1",
+      "type": "multiple_choice",
+      "prompt_en": "How do you say 'I like the music'?",
+      "options": ["Ich gefalle die Musik.", "Die Musik gefällt mir.", "Die Musik gefällt mich."],
+      "answer": 1
+    },
+    {
+      "id": "a2-04-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Wir fahren mit ___ Riesenrad.",
+      "options": ["dem", "das", "den"],
+      "answer": "dem",
+      "translation_en": "We're going on the Ferris wheel."
+    },
+    {
+      "id": "a2-04-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Tobias schenkt ___ ein Lebkuchenherz.",
+      "options": ["ihr", "sie", "ihre"],
+      "answer": "ihr",
+      "translation_en": "Tobias gives her a gingerbread heart."
+    },
+    {
+      "id": "a2-04-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["ist", "Mir", "schwindelig", "ein", "bisschen", "."],
+      "answer": "Mir ist ein bisschen schwindelig.",
+      "translation_en": "I feel a bit dizzy."
+    },
+    {
+      "id": "a2-04-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Kann ich Ihnen helfen?",
+      "accept": ["Kann ich Ihnen helfen?"],
+      "translation_en": "Can I help you?"
+    },
+    {
+      "id": "a2-04-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match each pronoun with its dative form.",
+      "pairs": [
+        { "de": "ich", "en": "mir" },
+        { "de": "du", "en": "dir" },
+        { "de": "er", "en": "ihm" },
+        { "de": "wir", "en": "uns" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Back home, you give the gingerbread heart to Frau Huber.",
+    "turns": [
+      { "speaker": "frau_huber", "de": "Emma, Sie sind ja schon zurück! Wie war das Volksfest?", "en": "Emma, you're back already! How was the folk festival?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Es hat mir sehr gut gefallen! Und das hier ist für Sie.", "correct": true, "feedback_en": "Lovely! 'Es hat mir gefallen' is the Perfekt of 'Es gefällt mir'." },
+          { "de": "Ich habe das Volksfest sehr gut gefallen.", "correct": false, "feedback_en": "The festival is the subject: 'Das Volksfest hat mir gefallen.'" },
+          { "de": "Es hat mich sehr gut gefallen.", "correct": false, "feedback_en": "'gefallen' needs the dative: 'mir', not 'mich'." }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Ein Lebkuchenherz! Für mich? Das ist aber lieb!", "en": "A gingerbread heart! For me? How sweet!" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Tobias hat es mir geschenkt, aber ich schenke es Ihnen.", "correct": true, "feedback_en": "Excellent dative: 'mir' and 'Ihnen'." },
+          { "de": "Tobias hat es mich geschenkt.", "correct": false, "feedback_en": "The person who receives a present is in the dative: 'mir'." },
+          { "de": "Ich schenke es Sie.", "correct": false, "feedback_en": "Polite 'Sie' in the dative is 'Ihnen'." }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Vielen Dank, Emma. Dann gibt es morgen Kaffee und Lebkuchen!", "en": "Thank you so much, Emma. Then tomorrow it's coffee and gingerbread!" }
+    ]
+  }
+}

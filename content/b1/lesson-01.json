@@ -1,0 +1,128 @@
+{
+  "id": "b1-01",
+  "level": "B1",
+  "order": 1,
+  "title_de": "Die Heizung ist kaputt",
+  "title_en": "The heating is broken",
+  "goal_en": "Explain a problem and give reasons with weil, dass and wenn.",
+  "scene": {
+    "setting_en": "It's January and Emma's flat is cold. She knocks on Frau Huber's door.",
+    "lines": [
+      { "speaker": "emma", "de": "Entschuldigen Sie die Störung, Frau Huber. Ich glaube, dass die Heizung kaputt ist.", "en": "Sorry to bother you, Mrs Huber. I think the heating is broken." },
+      { "speaker": "frau_huber", "de": "Oje! Seit wann ist es denn kalt?", "en": "Oh dear! Since when has it been cold?" },
+      { "speaker": "emma", "de": "Seit gestern Abend. Ich habe kaum geschlafen, weil es in der Wohnung nur fünfzehn Grad hat.", "en": "Since last night. I hardly slept because it's only fifteen degrees in the flat." },
+      { "speaker": "frau_huber", "de": "Das tut mir leid. Ich rufe gleich den Installateur an. Wenn er heute keine Zeit hat, bringe ich Ihnen einen Heizlüfter.", "en": "I'm sorry. I'll call the plumber right away. If he doesn't have time today, I'll bring you a fan heater." },
+      { "speaker": "emma", "de": "Das wäre sehr nett. Ich weiß nicht, ob das Problem nur bei mir ist.", "en": "That would be very kind. I don't know whether the problem is only in my flat." },
+      { "speaker": "frau_huber", "de": "Bei mir ist es warm. Wahrscheinlich ist nur das Ventil kaputt, weil das Haus schon alt ist.", "en": "It's warm in mine. Probably only the valve is broken, because the house is already old." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "heizung", "de": "Heizung", "article": "die", "plural": "die Heizungen", "type": "noun", "en": "heating / radiator", "example_de": "Die Heizung funktioniert nicht.", "example_en": "The heating isn't working." },
+    { "id": "installateur", "de": "Installateur", "article": "der", "plural": "die Installateure", "type": "noun", "en": "plumber / heating engineer", "example_de": "Der Installateur kommt morgen.", "example_en": "The plumber is coming tomorrow." },
+    { "id": "stoerung", "de": "Störung", "article": "die", "plural": "die Störungen", "type": "noun", "en": "disturbance / fault", "example_de": "Entschuldigen Sie die Störung.", "example_en": "Sorry to bother you." },
+    { "id": "vermieterin", "de": "Vermieterin", "article": "die", "plural": "die Vermieterinnen", "type": "noun", "en": "landlady", "example_de": "Meine Vermieterin wohnt im Erdgeschoss.", "example_en": "My landlady lives on the ground floor." },
+    { "id": "kaputt", "de": "kaputt", "type": "adjective", "en": "broken", "example_de": "Die Waschmaschine ist kaputt.", "example_en": "The washing machine is broken." },
+    { "id": "reparieren", "de": "reparieren", "type": "verb", "en": "to repair", "example_de": "Kann man das reparieren?", "example_en": "Can that be repaired?" },
+    { "id": "funktionieren", "de": "funktionieren", "type": "verb", "en": "to work / to function", "example_de": "Das Licht funktioniert wieder.", "example_en": "The light is working again." },
+    { "id": "weil", "de": "weil", "type": "conjunction", "en": "because", "example_de": "Ich bin müde, weil ich wenig geschlafen habe.", "example_en": "I'm tired because I slept little." },
+    { "id": "dass", "de": "dass", "type": "conjunction", "en": "that", "example_de": "Ich glaube, dass er morgen kommt.", "example_en": "I think that he's coming tomorrow." },
+    { "id": "wenn", "de": "wenn", "type": "conjunction", "en": "if / when (whenever)", "example_de": "Wenn es regnet, bleibe ich zu Hause.", "example_en": "If it rains, I'll stay at home." },
+    { "id": "ob", "de": "ob", "type": "conjunction", "en": "whether / if", "example_de": "Ich weiß nicht, ob sie Zeit hat.", "example_en": "I don't know whether she has time." },
+    { "id": "wahrscheinlich", "de": "wahrscheinlich", "type": "adverb", "en": "probably", "example_de": "Er kommt wahrscheinlich später.", "example_en": "He's probably coming later." }
+  ],
+  "grammar": {
+    "title_en": "Subordinate clauses: the verb goes to the end",
+    "explanation_en": "Conjunctions like weil (because), dass (that), wenn (if/when) and ob (whether) start a subordinate clause. In that clause, the conjugated verb moves to the very end: 'Ich bleibe zu Hause, weil ich krank bin.' Always put a comma before the conjunction. If the subordinate clause comes first, the main clause starts with its verb: 'Wenn er keine Zeit hat, bringe ich Ihnen einen Heizlüfter.' (verb – comma – verb).",
+    "table": {
+      "headers": ["Main clause", "Subordinate clause (verb at the end)"],
+      "rows": [
+        ["Es ist kalt.", "…, weil die Heizung kaputt ist."],
+        ["Er kommt morgen.", "Ich glaube, dass er morgen kommt."],
+        ["Hat sie Zeit?", "Ich weiß nicht, ob sie Zeit hat."],
+        ["Ich habe wenig geschlafen.", "…, weil ich wenig geschlafen habe."]
+      ]
+    },
+    "examples": [
+      { "de": "Ich rufe an, weil die Heizung nicht funktioniert.", "en": "I'm calling because the heating isn't working." },
+      { "de": "Wenn du Hilfe brauchst, ruf mich an.", "en": "If you need help, call me." }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "b1-01-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which sentence is correct?",
+      "options": ["Ich friere, weil die Heizung ist kaputt.", "Ich friere, weil die Heizung kaputt ist.", "Ich friere, weil ist die Heizung kaputt."],
+      "answer": 1
+    },
+    {
+      "id": "b1-01-e2",
+      "type": "gap_fill",
+      "prompt_en": "Choose the right conjunction.",
+      "sentence_de": "Ich weiß nicht, ___ der Installateur heute kommt.",
+      "options": ["ob", "dass", "weil"],
+      "answer": "ob",
+      "translation_en": "I don't know whether the plumber is coming today."
+    },
+    {
+      "id": "b1-01-e3",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["ich", "weil", "geschlafen", "habe", "schlecht", "Ich", "bin", "müde,", "."],
+      "answer": "Ich bin müde, weil ich schlecht geschlafen habe.",
+      "translation_en": "I'm tired because I slept badly."
+    },
+    {
+      "id": "b1-01-e4",
+      "type": "gap_fill",
+      "prompt_en": "After a 'wenn' clause, which word comes next?",
+      "sentence_de": "Wenn er keine Zeit hat, ___ ich einen Heizlüfter.",
+      "options": ["bringe", "ich bringe", "bringen"],
+      "answer": "bringe",
+      "translation_en": "If he doesn't have time, I'll bring a fan heater."
+    },
+    {
+      "id": "b1-01-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Ich glaube, dass die Heizung kaputt ist.",
+      "accept": ["Ich glaube, dass die Heizung kaputt ist."],
+      "translation_en": "I think the heating is broken."
+    },
+    {
+      "id": "b1-01-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        { "de": "weil", "en": "because" },
+        { "de": "ob", "en": "whether" },
+        { "de": "wenn", "en": "if" },
+        { "de": "dass", "en": "that" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Tobias asks why you look so tired at work.",
+    "turns": [
+      { "speaker": "tobias", "de": "Du siehst müde aus. Ist alles in Ordnung?", "en": "You look tired. Is everything okay?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ich habe schlecht geschlafen, weil meine Heizung kaputt ist.", "correct": true, "feedback_en": "Perfect! The verb 'ist' is at the end of the weil clause." },
+          { "de": "Ich habe schlecht geschlafen, weil meine Heizung ist kaputt.", "correct": false, "feedback_en": "Very common in spoken German, but correct is: '…, weil meine Heizung kaputt ist.'" },
+          { "de": "Ich habe schlecht geschlafen, dass meine Heizung kaputt ist.", "correct": false, "feedback_en": "'dass' means 'that'. For a reason, use 'weil'." }
+        ]
+      },
+      { "speaker": "tobias", "de": "Oh nein! Weißt du schon, wann sie repariert wird?", "en": "Oh no! Do you know yet when it will be repaired?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Noch nicht. Wenn der Installateur heute keine Zeit hat, kommt er morgen.", "correct": true, "feedback_en": "Excellent! Verb at the end in the wenn clause, then verb first in the main clause." },
+          { "de": "Noch nicht. Wenn der Installateur hat heute keine Zeit, er kommt morgen.", "correct": false, "feedback_en": "Two fixes: 'wenn … keine Zeit hat,' and then 'kommt er morgen'." },
+          { "de": "Noch nicht. Ob der Installateur Zeit hat, kommt er morgen.", "correct": false, "feedback_en": "'ob' means 'whether'. For a condition, use 'wenn'." }
+        ]
+      },
+      { "speaker": "tobias", "de": "Wenn es heute Nacht wieder kalt ist, kannst du bei uns schlafen.", "en": "If it's cold again tonight, you can sleep at our place." }
+    ]
+  }
+}

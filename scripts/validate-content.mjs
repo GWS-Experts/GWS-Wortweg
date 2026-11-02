@@ -1,6 +1,6 @@
 // Checks all lesson files in content/ for structural errors.
 // Usage: node scripts/validate-content.mjs
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -16,6 +16,9 @@ const err = (file, msg) => errors.push(`${file}: ${msg}`);
 
 const index = JSON.parse(readFileSync(join(root, "index.json"), "utf8"));
 const levels = index.levels.flatMap((l) => l.lessons.map((f) => join(l.id.toLowerCase(), f)));
+for (const rel of levels) {
+  if (!existsSync(join(root, rel))) err(rel, "listed in content/index.json but the file is missing");
+}
 
 for (const level of readdirSync(root, { withFileTypes: true }).filter((d) => d.isDirectory())) {
   for (const file of readdirSync(join(root, level.name)).filter((f) => f.endsWith(".json"))) {
@@ -32,6 +35,7 @@ for (const level of readdirSync(root, { withFileTypes: true }).filter((d) => d.i
       if (lesson[key] === undefined) err(rel, `missing "${key}"`);
     }
     if (seenIds.has(lesson.id)) err(rel, `duplicate lesson id ${lesson.id}`);
+    if (lesson.level?.toLowerCase() !== level.name) err(rel, `level "${lesson.level}" doesn't match folder "${level.name}"`);
     seenIds.add(lesson.id);
 
     for (const line of lesson.scene?.lines ?? []) {

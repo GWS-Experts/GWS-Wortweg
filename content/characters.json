@@ -1,0 +1,45 @@
+{
+  "story": {
+    "title_de": "Ein neues Leben in Marzling",
+    "title_en": "A new life in Marzling",
+    "summary_en": "Emma Clarke, a nurse from Leeds, moves to Marzling, a village on the river Isar near Freising, to start a new job at the hospital in Freising. Step by step she learns to handle everyday life in German."
+  },
+  "characters": [
+    {
+      "id": "emma",
+      "name": "Emma Clarke",
+      "role_en": "Main character. Nurse from Leeds, England. Just moved to Marzling.",
+      "speaks": "Learner level: starts as a complete beginner"
+    },
+    {
+      "id": "frau_huber",
+      "name": "Frau Huber",
+      "role_en": "Emma's neighbour and landlady. Friendly, retired, has lived in Marzling all her life.",
+      "speaks": "Polite form (Sie)"
+    },
+    {
+      "id": "lukas",
+      "name": "Lukas",
+      "role_en": "Works at the bakery in Marzling. About Emma's age.",
+      "speaks": "Informal (du) after the first meeting"
+    },
+    {
+      "id": "herr_maier",
+      "name": "Herr Maier",
+      "role_en": "Station guard and ticket machine helper at Marzling station.",
+      "speaks": "Polite form (Sie)"
+    },
+    {
+      "id": "kassiererin",
+      "name": "Die Kassiererin",
+      "role_en": "Cashier at the supermarket.",
+      "speaks": "Polite form (Sie)"
+    },
+    {
+      "id": "dr_schmid",
+      "name": "Dr. Anna Schmid",
+      "role_en": "Emma's new boss at the hospital in Freising.",
+      "speaks": "Polite form (Sie), later du"
+    }
+  ]
+}

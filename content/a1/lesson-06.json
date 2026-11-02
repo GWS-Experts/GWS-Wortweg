@@ -1,0 +1,132 @@
+{
+  "id": "a1-06",
+  "level": "A1",
+  "order": 6,
+  "title_de": "Mein erster Arbeitstag",
+  "title_en": "My first day at work",
+  "goal_en": "Talk about your job and where you live, using regular verbs.",
+  "scene": {
+    "setting_en": "Emma starts work at the hospital in Freising. Her boss, Dr. Anna Schmid, welcomes her.",
+    "lines": [
+      { "speaker": "dr_schmid", "de": "Guten Morgen, Frau Clarke! Willkommen im Team.", "en": "Good morning, Ms Clarke! Welcome to the team." },
+      { "speaker": "emma", "de": "Guten Morgen, Frau Dr. Schmid! Ich freue mich.", "en": "Good morning, Dr Schmid! I'm happy to be here." },
+      { "speaker": "dr_schmid", "de": "Sie arbeiten hier als Krankenschwester, richtig?", "en": "You're working here as a nurse, right?" },
+      { "speaker": "emma", "de": "Ja, genau. In England arbeite ich auch im Krankenhaus.", "en": "Yes, exactly. In England I also work at a hospital." },
+      { "speaker": "dr_schmid", "de": "Wo wohnen Sie jetzt?", "en": "Where do you live now?" },
+      { "speaker": "emma", "de": "Ich wohne in Marzling. Ich fahre mit der S-Bahn.", "en": "I live in Marzling. I take the S-Bahn." },
+      { "speaker": "dr_schmid", "de": "Prima! Wir beginnen um acht Uhr. Und jetzt zeige ich Ihnen die Station.", "en": "Great! We start at eight. And now I'll show you the ward." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "arbeiten", "de": "arbeiten", "type": "verb", "en": "to work", "example_de": "Ich arbeite in Freising.", "example_en": "I work in Freising." },
+    { "id": "wohnen", "de": "wohnen", "type": "verb", "en": "to live (reside)", "example_de": "Emma wohnt in Marzling.", "example_en": "Emma lives in Marzling." },
+    { "id": "beginnen", "de": "beginnen", "type": "verb", "en": "to begin / to start", "example_de": "Die Arbeit beginnt um acht Uhr.", "example_en": "Work starts at eight o'clock." },
+    { "id": "krankenhaus", "de": "Krankenhaus", "article": "das", "plural": "die Krankenhäuser", "type": "noun", "en": "hospital", "example_de": "Das Krankenhaus ist in Freising.", "example_en": "The hospital is in Freising." },
+    { "id": "krankenschwester", "de": "Krankenschwester / Krankenpfleger", "article": "die / der", "plural": "die Krankenschwestern / die Krankenpfleger", "type": "noun", "en": "nurse (female / male)", "example_de": "Emma ist Krankenschwester.", "example_en": "Emma is a nurse.", "note_en": "The official job title today is 'Pflegefachfrau' / 'Pflegefachmann'. Note: no article before jobs: 'Ich bin Krankenschwester.'" },
+    { "id": "arbeit", "de": "Arbeit", "article": "die", "plural": "die Arbeiten", "type": "noun", "en": "work / job", "example_de": "Die Arbeit macht Spaß.", "example_en": "The work is fun." },
+    { "id": "team", "de": "Team", "article": "das", "plural": "die Teams", "type": "noun", "en": "team", "example_de": "Das Team ist nett.", "example_en": "The team is nice." },
+    { "id": "station", "de": "Station", "article": "die", "plural": "die Stationen", "type": "noun", "en": "(hospital) ward", "example_de": "Die Station ist im ersten Stock.", "example_en": "The ward is on the first floor." },
+    { "id": "jetzt", "de": "jetzt", "type": "adverb", "en": "now", "example_de": "Ich wohne jetzt in Deutschland.", "example_en": "I live in Germany now." },
+    { "id": "wir", "de": "wir", "type": "pronoun", "en": "we", "example_de": "Wir arbeiten zusammen.", "example_en": "We work together." },
+    { "id": "er_sie", "de": "er / sie", "type": "pronoun", "en": "he / she", "example_de": "Sie arbeitet im Krankenhaus.", "example_en": "She works at the hospital." },
+    { "id": "genau", "de": "genau", "type": "adverb", "en": "exactly", "example_de": "Ja, genau!", "example_en": "Yes, exactly!" }
+  ],
+  "grammar": {
+    "title_en": "Regular verbs in the present tense",
+    "explanation_en": "Most German verbs follow one pattern. Take the infinitive (wohnen), remove -en to get the stem (wohn-) and add the ending for each person. Verbs with a stem ending in -t or -d add an extra -e- for du and er/sie/es: 'du arbeitest', 'sie arbeitet'. In a normal statement the verb is always in second position.",
+    "table": {
+      "headers": ["", "wohnen", "arbeiten"],
+      "rows": [
+        ["ich", "wohne", "arbeite"],
+        ["du", "wohnst", "arbeitest"],
+        ["er / sie / es", "wohnt", "arbeitet"],
+        ["wir", "wohnen", "arbeiten"],
+        ["ihr", "wohnt", "arbeitet"],
+        ["sie / Sie", "wohnen", "arbeiten"]
+      ]
+    },
+    "examples": [
+      { "de": "Ich wohne in Marzling.", "en": "I live in Marzling." },
+      { "de": "Emma arbeitet im Krankenhaus.", "en": "Emma works at the hospital." },
+      { "de": "In England arbeite ich auch.", "en": "In England I work too. (verb stays in second position)" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1-06-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Choose the right form: 'Emma ___ in Marzling.'",
+      "options": ["wohne", "wohnt", "wohnen"],
+      "answer": 1
+    },
+    {
+      "id": "a1-06-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Du ___ im Krankenhaus.",
+      "options": ["arbeitest", "arbeitst", "arbeiten"],
+      "answer": "arbeitest",
+      "translation_en": "You work at the hospital."
+    },
+    {
+      "id": "a1-06-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Wir ___ um acht Uhr.",
+      "options": ["beginnen", "beginnt", "beginne"],
+      "answer": "beginnen",
+      "translation_en": "We start at eight o'clock."
+    },
+    {
+      "id": "a1-06-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order. Start with 'Jetzt'.",
+      "words": ["wohne", "Jetzt", "ich", "Marzling", "in", "."],
+      "answer": "Jetzt wohne ich in Marzling.",
+      "translation_en": "Now I live in Marzling."
+    },
+    {
+      "id": "a1-06-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Sie arbeitet in Freising.",
+      "accept": ["Sie arbeitet in Freising."],
+      "translation_en": "She works in Freising."
+    },
+    {
+      "id": "a1-06-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        { "de": "das Krankenhaus", "en": "hospital" },
+        { "de": "wohnen", "en": "to live" },
+        { "de": "jetzt", "en": "now" },
+        { "de": "beginnen", "en": "to start" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Lukas visits his brother at the hospital and meets you in the cafeteria.",
+    "turns": [
+      { "speaker": "lukas", "de": "Hallo Emma! Mein Bruder arbeitet auch hier. Arbeitest du gern hier?", "en": "Hi Emma! My brother works here too. Do you like working here?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja, ich arbeite gern hier.", "correct": true, "feedback_en": "Great! 'gern' after the verb means you like doing it." },
+          { "de": "Ja, ich arbeitet gern hier.", "correct": false, "feedback_en": "With 'ich' the ending is -e: 'ich arbeite'." },
+          { "de": "Ja, ich wohne im Krankenhaus.", "correct": false, "feedback_en": "That means 'I live in the hospital'. Use 'arbeiten' for work." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Und wo wohnst du?", "en": "And where do you live?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ich wohne in Marzling, du weißt doch!", "correct": true, "feedback_en": "Ha, exactly! Lukas knows that already." },
+          { "de": "In Marzling wohnst ich.", "correct": false, "feedback_en": "With 'ich' it's 'wohne': 'In Marzling wohne ich.'" },
+          { "de": "Ich arbeite in Marzling.", "correct": false, "feedback_en": "Lukas asked where you live, not where you work." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Stimmt! Bis morgen in der Bäckerei!", "en": "True! See you tomorrow at the bakery!" }
+    ]
+  }
+}

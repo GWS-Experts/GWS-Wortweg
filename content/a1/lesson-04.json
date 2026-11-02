@@ -1,0 +1,131 @@
+{
+  "id": "a1-04",
+  "level": "A1",
+  "order": 4,
+  "title_de": "Am Bahnhof Marzling",
+  "title_en": "At Marzling station",
+  "goal_en": "Ask questions with W-words and understand train times.",
+  "scene": {
+    "setting_en": "Emma wants to go to Freising to see the hospital. She asks Herr Maier at the station.",
+    "lines": [
+      { "speaker": "emma", "de": "Entschuldigung, wann fährt die S-Bahn nach Freising?", "en": "Excuse me, when does the S-Bahn to Freising leave?" },
+      { "speaker": "herr_maier", "de": "Die nächste S-Bahn fährt um neun Uhr.", "en": "The next S-Bahn leaves at nine o'clock." },
+      { "speaker": "emma", "de": "Von welchem Gleis?", "en": "From which platform?" },
+      { "speaker": "herr_maier", "de": "Von Gleis zwei.", "en": "From platform two." },
+      { "speaker": "emma", "de": "Und wo kaufe ich eine Fahrkarte?", "en": "And where do I buy a ticket?" },
+      { "speaker": "herr_maier", "de": "Da drüben ist der Automat.", "en": "The machine is over there." },
+      { "speaker": "emma", "de": "Vielen Dank!", "en": "Thank you very much!" },
+      { "speaker": "herr_maier", "de": "Bitte schön. Gute Fahrt!", "en": "You're welcome. Have a good trip!" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "bahnhof", "de": "Bahnhof", "article": "der", "plural": "die Bahnhöfe", "type": "noun", "en": "train station", "example_de": "Der Bahnhof ist klein.", "example_en": "The station is small." },
+    { "id": "s_bahn", "de": "S-Bahn", "article": "die", "plural": "die S-Bahnen", "type": "noun", "en": "suburban train", "example_de": "Die S-Bahn fährt nach Freising.", "example_en": "The S-Bahn goes to Freising." },
+    { "id": "gleis", "de": "Gleis", "article": "das", "plural": "die Gleise", "type": "noun", "en": "platform / track", "example_de": "Der Zug fährt von Gleis eins.", "example_en": "The train leaves from platform one." },
+    { "id": "fahrkarte", "de": "Fahrkarte", "article": "die", "plural": "die Fahrkarten", "type": "noun", "en": "ticket", "example_de": "Ich kaufe eine Fahrkarte.", "example_en": "I'm buying a ticket." },
+    { "id": "automat", "de": "Automat", "article": "der", "plural": "die Automaten", "type": "noun", "en": "(ticket) machine", "example_de": "Der Automat ist da drüben.", "example_en": "The machine is over there." },
+    { "id": "fahren", "de": "fahren", "type": "verb", "en": "to go / to drive / to leave (vehicles)", "example_de": "Die S-Bahn fährt um neun Uhr.", "example_en": "The S-Bahn leaves at nine." },
+    { "id": "kaufen", "de": "kaufen", "type": "verb", "en": "to buy", "example_de": "Wo kaufe ich eine Fahrkarte?", "example_en": "Where do I buy a ticket?" },
+    { "id": "wann", "de": "wann", "type": "question_word", "en": "when", "example_de": "Wann fährt der Zug?", "example_en": "When does the train leave?" },
+    { "id": "uhr", "de": "Uhr", "article": "die", "plural": "die Uhren", "type": "noun", "en": "o'clock / clock", "example_de": "Es ist zehn Uhr.", "example_en": "It's ten o'clock." },
+    { "id": "nach", "de": "nach", "type": "preposition", "en": "to (towns and countries)", "example_de": "Ich fahre nach München.", "example_en": "I'm going to Munich." },
+    { "id": "entschuldigung", "de": "Entschuldigung", "type": "phrase", "en": "excuse me / sorry", "example_de": "Entschuldigung, wo ist Gleis zwei?", "example_en": "Excuse me, where is platform two?" },
+    { "id": "vielen_dank", "de": "Vielen Dank!", "type": "phrase", "en": "Thank you very much!", "example_de": "Vielen Dank, Herr Maier!", "example_en": "Thank you very much, Mr Maier!" }
+  ],
+  "grammar": {
+    "title_en": "Asking questions with W-words",
+    "explanation_en": "Most German question words start with W: wer (who), was (what), wo (where), wann (when), woher (where from), wie (how). In a W-question, the verb comes in second position, right after the question word: 'Wann fährt die S-Bahn?'. Some verbs change their vowel with du, er, sie: 'ich fahre' but 'die S-Bahn fährt'.",
+    "table": {
+      "headers": ["Question word", "English", "Example"],
+      "rows": [
+        ["wer", "who", "Wer ist das?"],
+        ["was", "what", "Was kostet die Fahrkarte?"],
+        ["wo", "where", "Wo ist Gleis zwei?"],
+        ["wann", "when", "Wann fährt der Zug?"],
+        ["wie", "how", "Wie komme ich nach Freising?"]
+      ]
+    },
+    "examples": [
+      { "de": "Wann fährt die S-Bahn nach Freising?", "en": "When does the S-Bahn to Freising leave?" },
+      { "de": "Wo kaufe ich eine Fahrkarte?", "en": "Where do I buy a ticket?" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1-04-e1",
+      "type": "multiple_choice",
+      "prompt_en": "Which question word means 'when'?",
+      "options": ["wo", "wann", "wer"],
+      "answer": 1
+    },
+    {
+      "id": "a1-04-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "___ ist der Automat? – Da drüben.",
+      "options": ["Wo", "Wann", "Wer"],
+      "answer": "Wo",
+      "translation_en": "Where is the machine? – Over there."
+    },
+    {
+      "id": "a1-04-e3",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["fährt", "Wann", "S-Bahn", "die", "?"],
+      "answer": "Wann fährt die S-Bahn?",
+      "translation_en": "When does the S-Bahn leave?"
+    },
+    {
+      "id": "a1-04-e4",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich fahre ___ Freising.",
+      "options": ["nach", "aus", "von"],
+      "answer": "nach",
+      "translation_en": "I'm going to Freising."
+    },
+    {
+      "id": "a1-04-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type the platform number as a digit.",
+      "text_de": "Die S-Bahn fährt von Gleis drei.",
+      "accept": ["3", "drei"],
+      "translation_en": "The S-Bahn leaves from platform three."
+    },
+    {
+      "id": "a1-04-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        { "de": "die Fahrkarte", "en": "ticket" },
+        { "de": "das Gleis", "en": "platform" },
+        { "de": "der Bahnhof", "en": "train station" },
+        { "de": "kaufen", "en": "to buy" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "You want to go to Munich. At the station you meet Frau Huber.",
+    "turns": [
+      { "speaker": "frau_huber", "de": "Oh, hallo Emma! Wohin fahren Sie?", "en": "Oh, hello Emma! Where are you going?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ich fahre nach München.", "correct": true, "feedback_en": "Great! 'nach' + city." },
+          { "de": "Ich fahre aus München.", "correct": false, "feedback_en": "'aus' means 'from'. Use 'nach' for where you are going." },
+          { "de": "München fahre ich nach.", "correct": false, "feedback_en": "The order is mixed up: 'Ich fahre nach München.'" }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Schön! Haben Sie schon eine Fahrkarte?", "en": "Nice! Do you already have a ticket?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Nein. Wo ist der Automat?", "correct": true, "feedback_en": "Perfect! A clear W-question." },
+          { "de": "Nein. Wann ist der Automat?", "correct": false, "feedback_en": "'wann' asks about time. For a place, use 'wo'." },
+          { "de": "Nein. Wo der Automat ist?", "correct": false, "feedback_en": "In a question the verb comes second: 'Wo ist der Automat?'" }
+        ]
+      },
+      { "speaker": "frau_huber", "de": "Da drüben, neben Gleis eins. Gute Fahrt!", "en": "Over there, next to platform one. Have a good trip!" }
+    ]
+  }
+}

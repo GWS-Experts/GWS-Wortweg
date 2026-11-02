@@ -1,0 +1,128 @@
+{
+  "id": "a1-01",
+  "level": "A1",
+  "order": 1,
+  "title_de": "Hallo, ich bin Emma!",
+  "title_en": "Hello, I'm Emma!",
+  "goal_en": "Greet people, say your name and where you come from.",
+  "scene": {
+    "setting_en": "Emma arrives at her new flat in Marzling. Her landlady, Frau Huber, opens the door.",
+    "lines": [
+      { "speaker": "frau_huber", "de": "Grüß Gott! Sind Sie Frau Clarke?", "en": "Hello! Are you Ms Clarke?" },
+      { "speaker": "emma", "de": "Ja, hallo! Ich bin Emma Clarke.", "en": "Yes, hello! I'm Emma Clarke." },
+      { "speaker": "frau_huber", "de": "Herzlich willkommen in Marzling! Ich heiße Huber, Maria Huber.", "en": "A warm welcome to Marzling! My name is Huber, Maria Huber." },
+      { "speaker": "emma", "de": "Freut mich, Frau Huber.", "en": "Nice to meet you, Mrs Huber." },
+      { "speaker": "frau_huber", "de": "Woher kommen Sie?", "en": "Where are you from?" },
+      { "speaker": "emma", "de": "Ich komme aus England, aus Leeds.", "en": "I'm from England, from Leeds." },
+      { "speaker": "frau_huber", "de": "Schön! Kommen Sie rein!", "en": "Lovely! Come in!" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "hallo", "de": "hallo", "type": "phrase", "en": "hello", "example_de": "Hallo, ich bin Emma.", "example_en": "Hello, I'm Emma." },
+    { "id": "gruess_gott", "de": "Grüß Gott", "type": "phrase", "en": "hello (common in Bavaria)", "example_de": "Grüß Gott, Frau Huber!", "example_en": "Hello, Mrs Huber!", "note_en": "Typical greeting in Bavaria and Austria. 'Guten Tag' is understood everywhere." },
+    { "id": "guten_tag", "de": "Guten Tag", "type": "phrase", "en": "good day / hello", "example_de": "Guten Tag! Ich bin Emma Clarke.", "example_en": "Good day! I'm Emma Clarke." },
+    { "id": "ich", "de": "ich", "type": "pronoun", "en": "I", "example_de": "Ich bin Emma.", "example_en": "I am Emma." },
+    { "id": "sein", "de": "sein", "type": "verb", "en": "to be", "example_de": "Ich bin aus England.", "example_en": "I am from England." },
+    { "id": "heissen", "de": "heißen", "type": "verb", "en": "to be called", "example_de": "Ich heiße Maria.", "example_en": "My name is Maria." },
+    { "id": "kommen", "de": "kommen", "type": "verb", "en": "to come", "example_de": "Ich komme aus Leeds.", "example_en": "I come from Leeds." },
+    { "id": "aus", "de": "aus", "type": "preposition", "en": "from (a place)", "example_de": "Sie kommt aus England.", "example_en": "She comes from England." },
+    { "id": "woher", "de": "woher", "type": "question_word", "en": "where from", "example_de": "Woher kommen Sie?", "example_en": "Where are you from?" },
+    { "id": "ja", "de": "ja", "type": "adverb", "en": "yes", "example_de": "Ja, ich bin Emma.", "example_en": "Yes, I'm Emma." },
+    { "id": "nein", "de": "nein", "type": "adverb", "en": "no", "example_de": "Nein, ich bin nicht Lukas.", "example_en": "No, I'm not Lukas." },
+    { "id": "freut_mich", "de": "Freut mich.", "type": "phrase", "en": "Nice to meet you.", "example_de": "Freut mich, Frau Huber.", "example_en": "Nice to meet you, Mrs Huber." }
+  ],
+  "grammar": {
+    "title_en": "Saying who you are: 'sein' and 'heißen'",
+    "explanation_en": "German has two common ways to say your name: 'Ich bin Emma' (I am Emma) and 'Ich heiße Emma' (I am called Emma). With strangers and older people, Germans use the polite 'Sie' (you). The verb then ends in -en: 'Woher kommen Sie?', 'Sind Sie Frau Clarke?'.",
+    "table": {
+      "headers": ["", "sein", "heißen", "kommen"],
+      "rows": [
+        ["ich", "bin", "heiße", "komme"],
+        ["Sie (polite you)", "sind", "heißen", "kommen"]
+      ]
+    },
+    "examples": [
+      { "de": "Ich bin Emma.", "en": "I am Emma." },
+      { "de": "Wie heißen Sie?", "en": "What is your name? (polite)" },
+      { "de": "Woher kommen Sie?", "en": "Where are you from? (polite)" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1-01-e1",
+      "type": "multiple_choice",
+      "prompt_en": "How do you say 'Nice to meet you'?",
+      "options": ["Freut mich.", "Grüß Gott.", "Woher kommen Sie?"],
+      "answer": 0
+    },
+    {
+      "id": "a1-01-e2",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich ___ Emma Clarke.",
+      "options": ["bin", "sind", "heißen"],
+      "answer": "bin",
+      "translation_en": "I am Emma Clarke."
+    },
+    {
+      "id": "a1-01-e3",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["kommen", "Woher", "Sie", "?"],
+      "answer": "Woher kommen Sie?",
+      "translation_en": "Where are you from?"
+    },
+    {
+      "id": "a1-01-e4",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Ich komme ___ England.",
+      "options": ["aus", "in", "woher"],
+      "answer": "aus",
+      "translation_en": "I come from England."
+    },
+    {
+      "id": "a1-01-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type what you hear.",
+      "text_de": "Ich heiße Maria Huber.",
+      "accept": ["Ich heiße Maria Huber.", "Ich heisse Maria Huber."],
+      "translation_en": "My name is Maria Huber."
+    },
+    {
+      "id": "a1-01-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        { "de": "ja", "en": "yes" },
+        { "de": "nein", "en": "no" },
+        { "de": "woher", "en": "where from" },
+        { "de": "kommen", "en": "to come" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "Lukas from the bakery walks past and says hello. Answer him.",
+    "turns": [
+      { "speaker": "lukas", "de": "Hallo! Ich bin Lukas. Und wie heißt du?", "en": "Hi! I'm Lukas. And what's your name?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ich heiße Emma.", "correct": true, "feedback_en": "Perfect! Lukas uses 'du', the informal 'you', so a simple answer works." },
+          { "de": "Ich komme aus Emma.", "correct": false, "feedback_en": "'aus' means 'from' and is used for places, not names." },
+          { "de": "Freut mich, Herr Lukas.", "correct": false, "feedback_en": "Close! But 'Herr' goes with surnames, and Lukas asked for your name." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Woher kommst du?", "en": "Where are you from?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ich komme aus England.", "correct": true, "feedback_en": "Great! 'aus' + country." },
+          { "de": "Ich bin England.", "correct": false, "feedback_en": "That means 'I am England'. Use 'Ich komme aus England'." },
+          { "de": "Ja, ich komme.", "correct": false, "feedback_en": "That means 'Yes, I'm coming'. Lukas asked where you are from." }
+        ]
+      },
+      { "speaker": "lukas", "de": "Cool! Willkommen in Marzling!", "en": "Cool! Welcome to Marzling!" }
+    ]
+  }
+}

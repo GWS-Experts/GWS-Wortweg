@@ -1,0 +1,128 @@
+{
+  "id": "a1-05",
+  "level": "A1",
+  "order": 5,
+  "title_de": "Im Supermarkt",
+  "title_en": "At the supermarket",
+  "goal_en": "Buy food, ask for prices and use plural forms.",
+  "scene": {
+    "setting_en": "Emma does her first big shop at the supermarket.",
+    "lines": [
+      { "speaker": "emma", "de": "Entschuldigung, wo sind die Äpfel?", "en": "Excuse me, where are the apples?" },
+      { "speaker": "kassiererin", "de": "Die Äpfel sind da hinten, beim Gemüse.", "en": "The apples are back there, by the vegetables." },
+      { "speaker": "emma", "de": "Danke. Und was kostet die Milch?", "en": "Thanks. And how much is the milk?" },
+      { "speaker": "kassiererin", "de": "Ein Liter kostet einen Euro zwanzig.", "en": "One litre costs one euro twenty." },
+      { "speaker": "emma", "de": "Gut, dann nehme ich zwei Liter Milch und sechs Eier.", "en": "Good, then I'll take two litres of milk and six eggs." },
+      { "speaker": "kassiererin", "de": "Das macht zusammen sieben Euro fünfzig. Brauchen Sie eine Tüte?", "en": "That's seven euros fifty altogether. Do you need a bag?" },
+      { "speaker": "emma", "de": "Nein, danke. Ich habe eine Tasche.", "en": "No, thanks. I have a bag." }
+    ]
+  },
+  "vocabulary": [
+    { "id": "apfel", "de": "Apfel", "article": "der", "plural": "die Äpfel", "type": "noun", "en": "apple", "example_de": "Der Apfel ist rot.", "example_en": "The apple is red." },
+    { "id": "milch", "de": "Milch", "article": "die", "plural": null, "type": "noun", "en": "milk", "example_de": "Die Milch ist frisch.", "example_en": "The milk is fresh." },
+    { "id": "ei", "de": "Ei", "article": "das", "plural": "die Eier", "type": "noun", "en": "egg", "example_de": "Ich brauche sechs Eier.", "example_en": "I need six eggs." },
+    { "id": "kaese", "de": "Käse", "article": "der", "plural": null, "type": "noun", "en": "cheese", "example_de": "Der Käse ist aus Bayern.", "example_en": "The cheese is from Bavaria." },
+    { "id": "tomate", "de": "Tomate", "article": "die", "plural": "die Tomaten", "type": "noun", "en": "tomato", "example_de": "Die Tomaten sind billig.", "example_en": "The tomatoes are cheap." },
+    { "id": "gemuese", "de": "Gemüse", "article": "das", "plural": null, "type": "noun", "en": "vegetables", "example_de": "Das Gemüse ist da hinten.", "example_en": "The vegetables are back there." },
+    { "id": "kosten", "de": "kosten", "type": "verb", "en": "to cost", "example_de": "Was kostet der Käse?", "example_en": "How much is the cheese?" },
+    { "id": "nehmen", "de": "nehmen", "type": "verb", "en": "to take", "example_de": "Ich nehme zwei Äpfel.", "example_en": "I'll take two apples." },
+    { "id": "brauchen", "de": "brauchen", "type": "verb", "en": "to need", "example_de": "Brauchen Sie eine Tüte?", "example_en": "Do you need a bag?" },
+    { "id": "tuete", "de": "Tüte", "article": "die", "plural": "die Tüten", "type": "noun", "en": "(plastic or paper) bag", "example_de": "Eine Tüte kostet zwanzig Cent.", "example_en": "A bag costs twenty cents." },
+    { "id": "zwanzig_bis_fuenfzig", "de": "zwanzig, dreißig, vierzig, fünfzig", "type": "number", "en": "twenty, thirty, forty, fifty", "example_de": "Das kostet dreißig Cent.", "example_en": "That costs thirty cents." },
+    { "id": "billig_teuer", "de": "billig / teuer", "type": "adjective", "en": "cheap / expensive", "example_de": "Der Käse ist teuer.", "example_en": "The cheese is expensive." }
+  ],
+  "grammar": {
+    "title_en": "Plural forms",
+    "explanation_en": "German plurals come in several patterns, so learn each noun with its plural. Common endings are -e, -er, -n/-en and -s; some nouns also get an umlaut (a → ä). The article in the plural is always 'die'. Tip: most feminine nouns ending in -e just add -n (die Tomate → die Tomaten).",
+    "table": {
+      "headers": ["Pattern", "Singular", "Plural"],
+      "rows": [
+        ["-n / -en", "die Tomate", "die Tomaten"],
+        ["-er", "das Ei", "die Eier"],
+        ["umlaut", "der Apfel", "die Äpfel"],
+        ["-e", "der Tisch", "die Tische"],
+        ["-s", "der Kaffee", "die Kaffees"]
+      ]
+    },
+    "examples": [
+      { "de": "Ich nehme drei Tomaten.", "en": "I'll take three tomatoes." },
+      { "de": "Wo sind die Eier?", "en": "Where are the eggs?" }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "a1-05-e1",
+      "type": "multiple_choice",
+      "prompt_en": "What is the plural of 'der Apfel'?",
+      "options": ["die Apfels", "die Äpfel", "die Apfeln"],
+      "answer": 1
+    },
+    {
+      "id": "a1-05-e2",
+      "type": "multiple_choice",
+      "prompt_en": "What is the plural of 'das Ei'?",
+      "options": ["die Eier", "die Eis", "die Eien"],
+      "answer": 0
+    },
+    {
+      "id": "a1-05-e3",
+      "type": "gap_fill",
+      "prompt_en": "Fill in the gap.",
+      "sentence_de": "Was ___ die Milch?",
+      "options": ["kostet", "kosten", "koste"],
+      "answer": "kostet",
+      "translation_en": "How much is the milk?"
+    },
+    {
+      "id": "a1-05-e4",
+      "type": "word_order",
+      "prompt_en": "Put the words in the right order.",
+      "words": ["nehme", "Ich", "Tomaten", "vier", "."],
+      "answer": "Ich nehme vier Tomaten.",
+      "translation_en": "I'll take four tomatoes."
+    },
+    {
+      "id": "a1-05-e5",
+      "type": "listen_type",
+      "prompt_en": "Listen and type the price in cents as a number.",
+      "text_de": "Die Tüte kostet vierzig Cent.",
+      "accept": ["40", "vierzig"],
+      "translation_en": "The bag costs forty cents."
+    },
+    {
+      "id": "a1-05-e6",
+      "type": "match_pairs",
+      "prompt_en": "Match the German and English words.",
+      "pairs": [
+        { "de": "billig", "en": "cheap" },
+        { "de": "teuer", "en": "expensive" },
+        { "de": "brauchen", "en": "to need" },
+        { "de": "der Käse", "en": "cheese" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "setting_en": "You are at the checkout. Talk to the cashier.",
+    "turns": [
+      { "speaker": "kassiererin", "de": "Guten Tag! Brauchen Sie eine Tüte?", "en": "Hello! Do you need a bag?" },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Ja, bitte. Was kostet die Tüte?", "correct": true, "feedback_en": "Well done! A polite yes and a good question." },
+          { "de": "Ja, ich brauche eine Tüten.", "correct": false, "feedback_en": "'eine' goes with the singular: 'eine Tüte'." },
+          { "de": "Ja, ich bin eine Tüte.", "correct": false, "feedback_en": "That means 'I am a bag'! Use 'brauchen' (to need)." }
+        ]
+      },
+      { "speaker": "kassiererin", "de": "Zwanzig Cent. Das macht dann zusammen neun Euro.", "en": "Twenty cents. That makes nine euros altogether." },
+      {
+        "learner": true,
+        "options": [
+          { "de": "Hier, bitte. Zehn Euro.", "correct": true, "feedback_en": "Perfect!" },
+          { "de": "Danke, neun Eier.", "correct": false, "feedback_en": "Careful: 'Euro' is money, 'Eier' are eggs." },
+          { "de": "Wo sind die Äpfel?", "correct": false, "feedback_en": "Good question, but now it's time to pay." }
+        ]
+      },
+      { "speaker": "kassiererin", "de": "Danke, und einen Euro zurück. Schönen Tag!", "en": "Thanks, and one euro change. Have a nice day!" }
+    ]
+  }
+}

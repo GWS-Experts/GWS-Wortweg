@@ -28,6 +28,6 @@ Die Lerninhalte liegen in [`content/`](content/README.md).
 
 Ohne Konfiguration speichert die App den Fortschritt nur im Browser. Für Konten:
 
-1. Die Migration in `supabase/migrations/` im Supabase-Projekt ausführen.
-2. `.env.example` nach `.env.local` kopieren und `NEXT_PUBLIC_SUPABASE_URL` und `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` eintragen.
+1. Die Migration in `supabase/migrations/` ist im Supabase-Projekt `wsqsehgqbctdzdiplglw` bereits ausgeführt (Tabelle `progress` mit Row Level Security).
+2. `.env.example` nach `.env.local` kopieren. Beim Hosting (z. B. Vercel) dieselben zwei Variablen eintragen.
 3. In Supabase unter Authentication → URL Configuration die Adresse der App als Site URL und Redirect URL (`…/account`) eintragen.

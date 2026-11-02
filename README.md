@@ -24,9 +24,9 @@ npm run build
 
 Die Lerninhalte liegen in [`content/`](content/README.md).
 
-## Benutzerkonten (optional)
+## Benutzerkonten
 
-Ohne Konfiguration speichert die App den Fortschritt nur im Browser. Für Konten:
+Die App speichert den Fortschritt immer im Browser und, wenn jemand angemeldet ist, zusätzlich in Supabase:
 
 1. Die Migration in `supabase/migrations/` ist im Supabase-Projekt `wsqsehgqbctdzdiplglw` bereits ausgeführt (Tabelle `progress` mit Row Level Security).
 2. URL und Schlüssel sind in `src/lib/supabase.ts` hinterlegt, Vercel braucht keine weiteren Einstellungen. Umgebungsvariablen (siehe `.env.example`) überschreiben sie; leere Werte schalten Konten ab.

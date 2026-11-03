@@ -23,8 +23,8 @@ const LEVEL_KEY = "gws-wortweg-level";
 const VOICE_KEY = "gws-wortweg-tutor-voice";
 
 const errorText: Record<string, string> = {
-  refusal: "Lena can't answer that. Let's talk about something else!",
-  busy: "Lena is very busy right now. Please try again in a minute.",
+  refusal: "Agata can't answer that. Let's talk about something else!",
+  busy: "Agata is very busy right now. Please try again in a minute.",
   failed: "Something went wrong. Please try again.",
 };
 
@@ -270,8 +270,8 @@ export function TutorChat() {
           <button
             onClick={toggleVoice}
             aria-pressed={voice}
-            title={voice ? "Lena's replies are read aloud" : "Lena's replies are not read aloud"}
-            aria-label="Read Lena's replies aloud"
+            title={voice ? "Agata's replies are read aloud" : "Agata's replies are not read aloud"}
+            aria-label="Read Agata's replies aloud"
             className={`h-9 w-9 rounded-full text-base ${voice ? "bg-brand-soft" : "bg-line opacity-60"}`}
           >
             {voice ? "🔊" : "🔇"}

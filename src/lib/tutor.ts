@@ -21,7 +21,7 @@ export const TUTOR_TOPICS: TutorTopic[] = [
   { id: "interview", title_en: "Job interview", brief: "A role play: you interview the learner for a job they choose. Ask typical interview questions." },
 ];
 
-export const TUTOR_NAME = "Lena";
+export const TUTOR_NAME = "Agata";
 
 /** Marks the tutor's correction line and translation line in a reply. */
 export const CORRECTION_PREFIX = "✏️";

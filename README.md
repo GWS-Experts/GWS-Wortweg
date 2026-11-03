@@ -9,7 +9,7 @@ Kostenlose Web-App, mit der Englischsprachige Deutsch lernen. Die Lektionen folg
 - Fünf Übungstypen: Auswahl, Lückentext, Sätze ordnen, Hören und Tippen, Paare finden
 - Sprachausgabe für alle deutschen Sätze (über die Sprachausgabe des Browsers)
 - Aussprache-Training mit Mikrofon: in jeder Lektion drei Sätze nachsprechen (überspringbar) und eine eigene Übungsseite `/speak` mit Sätzen aus allen Lektionen eines Niveaus. Die App zeigt Wort für Wort, was sie verstanden hat. Nutzt die Spracherkennung des Browsers (Chrome, Edge, Safari; Firefox kann es nicht und bekommt einen Hinweis).
-- KI-Tutor „Lena“ (`/tutor`): freies Gespräch auf Deutsch per Tippen oder Sprechen, passend zum Niveau A1–B2, mit Themen und Rollenspielen. Lena korrigiert die wichtigsten Fehler, liest Antworten vor und zeigt auf Wunsch die englische Übersetzung. Nur mit Anmeldung, höchstens 30 Nachrichten pro Tag.
+- KI-Tutor „Agata“ (`/tutor`): freies Gespräch auf Deutsch per Tippen oder Sprechen, passend zum Niveau A1–B2, mit Themen und Rollenspielen. Agata korrigiert die wichtigsten Fehler, liest Antworten vor und zeigt auf Wunsch die englische Übersetzung. Nur mit Anmeldung, höchstens 30 Nachrichten pro Tag.
 - Wortwiederholung nach 1, 3, 7, 14 und 30 Tagen
 - Tagesziel, Lernserie und XP
 - Fortschritt wird im Browser gespeichert; mit Supabase optional auch im Benutzerkonto (Anmeldung per E-Mail-Link)

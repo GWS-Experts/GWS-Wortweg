@@ -108,7 +108,7 @@ export function HomeView({ lessons, levels, story }: { lessons: LessonSummary[];
         <Link href="/tutor" className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-4 transition hover:border-brand">
           <span className="text-3xl" aria-hidden>💬</span>
           <span>
-            <span className="block font-semibold">Talk with Lena</span>
+            <span className="block font-semibold">Talk with Agata</span>
             <span className="block text-sm text-muted">Free conversation with your AI tutor.</span>
           </span>
         </Link>
